@@ -38,19 +38,19 @@ export default function HeroSection() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight">
-            Mahadev Book –{" "}
+            Mahadev Book India{" "}
             <span className="text-yellow-400">
-              India&apos;s Most Trustr
+              Most Trusted Online
             </span>{" "}
-            Betting Platform
+            Betting ID
           </h1>
 
           <p className="text-gray-300 text-lg leading-relaxed">
-            Join the most exciting online betting portal for the best betting experience. It is vital to know the best time to bet and select the best online betting portal with fast payouts and multiple games options to make the betting experience a great one. <strong className="text-white">Mahadev Book</strong> is India&apos;s most trusted betting platform where users have the best time betting with <strong className="text-yellow-400">60,000 plus live games</strong> each month, fast payouts, and encrypted transactions to offer the best betting experience.
+            Welcome to India&apos;s no 1 online betting game-changer <strong className="text-white">Mahadev Book</strong>. With betting sites it has always been a numbers game and the numbers have always favored the timing of the market. With best odds and authorized betting portal Mahadev book is India&apos;s number one betting site for a safe betting experience.
           </p>
 
           <p className="text-gray-400 leading-relaxed">
-            Create an account and start betting smartly to claim the best payouts. A verified ID offers the best of all worlds that come with great features and betting options.
+            We promise to make your betting experience exceptional with over <strong className="text-yellow-400">60000 monthly live scores</strong>, instant withdrawals and end to end encrypted transactions plus you also get to enjoy the best betting features and tools with every verified ID for a delightful time.
           </p>
 
           {/* CTA Button */}

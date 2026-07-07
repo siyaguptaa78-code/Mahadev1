@@ -7,31 +7,52 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const testimonials = [
   {
-    name: "Rahul Sharma",
+    name: "Rahul S.",
     city: "Mumbai",
-    review:
-      "The Mahadev Book app has transformed my betting experience. Their match predictions are accurate and reliable, making it easy to place winning bets.",
+    review: "Withdrawal credited within 5 minutes! Best platform I've used.",
     rating: 5,
     color: "from-blue-500 to-blue-700",
     initials: "RS",
   },
   {
-    name: "Priya Patel",
+    name: "Priya K.",
     city: "Delhi",
-    review:
-      "The website offers amazing football and cricket betting analysis. The login process is quick and convenient.",
-    rating: 4.5,
+    review: "Got my ID the same day. Super smooth process and amazing support team!",
+    rating: 5,
     color: "from-purple-500 to-purple-700",
-    initials: "PP",
+    initials: "PK",
   },
   {
-    name: "Vikram Singh",
+    name: "Vikram M.",
     city: "Bangalore",
-    review:
-      "I love the Mahadev Book instant registration and betting features. It is super easy to navigate and use on different devices.",
+    review: "IPL betting experience was incredible. Real-time updates and fast payouts.",
     rating: 5,
     color: "from-green-500 to-green-700",
-    initials: "VS",
+    initials: "VM",
+  },
+  {
+    name: "Ankit T.",
+    city: "Pune",
+    review: "100% genuine platform. I trust Mahadev Book for all my betting.",
+    rating: 5,
+    color: "from-orange-500 to-orange-700",
+    initials: "AT",
+  },
+  {
+    name: "Suresh P.",
+    city: "Hyderabad",
+    review: "Best customer service! They resolved my issue in minutes via WhatsApp.",
+    rating: 5,
+    color: "from-red-500 to-red-700",
+    initials: "SP",
+  },
+  {
+    name: "Riya N.",
+    city: "Chennai",
+    review: "Mujhe bahut accha experience mila. Payout fast aur secure hai.",
+    rating: 5,
+    color: "from-pink-500 to-pink-700",
+    initials: "RN",
   },
 ];
 
@@ -75,12 +96,10 @@ export default function TestimonialsSection() {
             id="testimonials-heading"
             className="text-3xl md:text-4xl font-black text-gray-900 mb-4"
           >
-            What Our{" "}
-            <span className="text-yellow-500">Mahadev Book Community</span>{" "}
-            Says
+            100% <span className="text-yellow-500">PAYOUTS</span>
           </h2>
           <p className="text-gray-600 max-w-xl mx-auto">
-            See why users across India trust Mahadev Bookfor their sports betting and gaming needs.
+            Our Players Say It All. These are some of the excellent feedback from our verified WhatsApp users who have enjoyed their betting journey with Mahadev Book.
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>

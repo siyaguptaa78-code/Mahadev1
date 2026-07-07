@@ -9,21 +9,33 @@ import Link from "next/link";
 const knowledgeCards = [
   {
     icon: TrendingUp,
-    title: "Beginner's Guide to Cricket Betting",
-    desc: "Learn the basics of cricket betting with our informative guide.",
-    linkText: "Read Guide →",
-  },
-  {
-    icon: Calculator,
-    title: "Odds Calculation Masterclass",
-    desc: "Learn how to calculate betting odds like a pro.",
-    linkText: "Learn Now →",
+    title: "Live IPL & T20",
+    desc: "Live IPL, international matches, T20 leagues betting with attractive odds and live markets",
+    linkText: "Bet Live →",
   },
   {
     icon: ShieldCheck,
-    title: "Safe Betting Practices",
-    desc: "A comprehensive guide to secure betting practices by our security experts.",
-    linkText: "Read Safety Guide →",
+    title: "Football Leagues",
+    desc: "Premier league, Champions league, La Liga, Indian super league matches betting",
+    linkText: "Bet Live →",
+  },
+  {
+    icon: Calculator,
+    title: "Live Casino",
+    desc: "Teen Patti, Andar Bahar, Roulette, Poker streams from the comfort of your home",
+    linkText: "Bet Live →",
+  },
+  {
+    icon: TrendingUp,
+    title: "Tennis Matches",
+    desc: "Grand slam, ATP, WTA live match betting",
+    linkText: "Bet Live →",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Virtual Sports",
+    desc: "Digital cricket, football, horse racing betting with enhanced graphics",
+    linkText: "Bet Live →",
   },
 ];
 
@@ -47,10 +59,10 @@ export default function KnowledgeCenter() {
             id="knowledge-heading"
             className="text-3xl md:text-4xl font-black text-gray-900 mb-4"
           >
-            Education & <span className="text-yellow-500">Strategies</span>
+            Games You Can <span className="text-yellow-500">Play</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Bet like a pro with our expert betting strategies and guides
+            With a verified Mahadev book ID, you gain access to all sports and live dealer casino games.
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>

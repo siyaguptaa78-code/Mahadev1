@@ -8,25 +8,25 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const strategyCards = [
   {
     icon: Lock,
-    title: "Secure Betting Experience",
-    desc: "Access your betting account on all your devices using encrypted features to guarantee your security.",
+    title: "1. Secure Login",
+    desc: "Login to your betting ID through an encrypted network for your security",
   },
   {
     icon: Compass,
-    title: "Multiple Betting Options",
-    desc: "Access a wide range of betting options ranging from sports betting to live casino games",
+    title: "2. Explore Betting Markets",
+    desc: "Get access to 1000s of live sports events and in-play betting with one betting wallet",
   },
   {
     icon: BarChart2,
-    title: "Track your Activities",
-    desc: "Track and monitor all your betting activities using personal dashboards to stay ahead of the game.",
+    title: "3. Track & Manage Bets",
+    desc: "Track and monitor results and withdrawals from your betting dashboard",
   },
 ];
 
 const responsibleBetting = [
-  "Use a self-exclusion feature in case your betting reaches problematic levels.",
-  "Set a daily or weekly limit on your deposits to avoid overdrafts",
-  "Take occasional breaks to ensure that betting doesn't affect your daily life",
+  "Set deposit and withdrawal limits on your betting account to avoid temptation. Also, avoid chasing losses by taking regular breaks and only gambling with money you can afford to lose.",
+  "Ensure your work and personal life balance and seek professional help if gambling impacts your daily life.",
+  "Consult your relationship manager for any assistance.",
 ];
 
 export default function BettingIDGuide() {
@@ -54,7 +54,7 @@ export default function BettingIDGuide() {
             <span className="text-yellow-500">Betting ID</span>
           </h2>
           <p className="text-gray-600 max-w-xl mx-auto">
-            A complete guide to the Mahadev Book ID, which gives you access to the best verified online betting platform
+            Your Mahadev Book ID grants you access to India’s most trusted online betting portal, Mahadev Book, where you can bet on sports, casino, and virtual games with complete security and ease of use. Think of your betting ID as your secure access key to all the betting fun on the portal. Here’s how it works:
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>
@@ -85,7 +85,7 @@ export default function BettingIDGuide() {
           className="mb-14"
         >
           <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-            How to Use It Smartly
+            Here’s how it works
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {strategyCards.map((card, i) => (
@@ -122,7 +122,7 @@ export default function BettingIDGuide() {
             <span>⚖️</span> Responsible Betting
           </h3>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            Your verified Mahadev Book ID opens exciting opportunities but remember to bet wisely
+            Your Mahadev Book betting id opens the exciting world of sports betting to you, but it has to be a responsible betting journey. Here are a few things to remember to enjoy betting without risking your finances and personal life:
           </p>
           <ul className="space-y-3">
             {responsibleBetting.map((item, i) => (

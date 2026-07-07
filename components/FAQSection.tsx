@@ -19,68 +19,33 @@ const faqs = [
   },
   {
     id: "faq3",
-    q: "How do I join Mahadev Book?",
-    a: "You can join Mahadev Book by requesting a verified ID through trusted agents or the official website. Once you receive your ID, you can log in, complete KYC verification, and start playing.",
-  },
-  {
-    id: "faq4",
     q: "How do I register for a new Online Betting ID?",
     a: 'Go to the official site, click "Get Your ID," fill in your details, verify your account, and you\'re ready to start betting.',
   },
   {
-    id: "faq5",
-    q: "How can I get a Mahadev Book franchise?",
-    a: "Franchise opportunities are offered through authorized partners or private contacts. Franchise holders distribute betting IDs and earn commissions. However, it's important to verify legitimacy and understand local laws before applying.",
-  },
-  {
-    id: "faq6",
+    id: "faq4",
     q: "What games can I play with my Mahadev Book ID?",
     a: "Your ID gives you access to Teen Patti, Cricket Betting, Andar Bahar, Poker, Slots, Live Casino, and more entertainment options.",
   },
   {
-    id: "faq7",
+    id: "faq5",
     q: "How do I deposit money into my Mahadev Book account?",
     a: "Deposits can be made using UPI, bank transfer, or other supported payment methods from your account dashboard.",
   },
   {
-    id: "faq8",
+    id: "faq6",
     q: "How do I withdraw my winnings?",
     a: "Go to the withdrawal section, enter your UPI ID or bank details, and submit a request. Processing times may vary depending on your payment method.",
   },
   {
-    id: "faq9",
+    id: "faq7",
     q: "Is Mahadev Book legal in India?",
     a: "Online betting laws in India vary by state. While Mahadev Book operates online, it does not have official government licensing, making its legal status uncertain. Always check your local regulations.",
   },
   {
-    id: "faq10",
+    id: "faq8",
     q: "Is Mahadev Book safe and trusted?",
     a: "Safety depends on joining through verified sources. Mahadev Book uses secure payment channels, but risks like fraud and fake apps exist. Always verify the authenticity of your ID provider.",
-  },
-  {
-    id: "faq11",
-    q: "Is my personal information secure with Mahadev Book?",
-    a: "Yes, Mahadev Book claims to use encryption and secure servers to protect your financial and personal data. However, always ensure you are using the official app or verified network.",
-  },
-  {
-    id: "faq12",
-    q: "Can I use Mahadev Book on my mobile phone?",
-    a: "Yes, Mahadev Book is mobile-friendly and also offers an app for a smoother betting experience on Android and iOS devices.",
-  },
-  {
-    id: "faq13",
-    q: "When will Mahadev Book open or publish?",
-    a: "Mahadev Book does not \"publish\" like a book. It is an online betting platform. Sometimes new IDs are unavailable if agents temporarily close registrations, giving the impression that it is closed.",
-  },
-  {
-    id: "faq14",
-    q: "Is Mahadev Book genuine or fake?",
-    a: "Mahadev Book is a real betting network, but many fake websites and apps use its name. Always cross-check with trusted agents and avoid unofficial sources.",
-  },
-  {
-    id: "faq15",
-    q: "What is the Mahadev Book contact number?",
-    a: "Official contact numbers are not openly published due to legal restrictions. Numbers are usually shared privately by agents. Always verify before sharing any personal information.",
   },
 ];
 

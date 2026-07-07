@@ -3,19 +3,20 @@ import Link from "next/link";
 const quickLinks = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
-  { label: "Blog", href: "/blog" },
+  { label: "Insights Blog", href: "/blog" },
   { label: "Mahadev Betting App", href: "/mahadev-betting-app" },
   { label: "Mahadev Book ID", href: "/mahadev-book-id" },
   { label: "FAQ", href: "/faq" },
+  { label: "Contact Support", href: "/contact" },
 ];
 
 const bettingPlatforms = [
-  { label: "Gold365", href: "#" },
-  { label: "Laser247", href: "#" },
-  { label: "IPL Betting ID", href: "#" },
-  { label: "Online Betting ID", href: "#" },
-  { label: "Mahadev Online Book", href: "#" },
-  { label: "MahadevBook", href: "/" },
+  { label: "Gold365 Exchange", href: "#" },
+  { label: "Laser247 Official", href: "#" },
+  { label: "IPL Cricket Betting ID", href: "#" },
+  { label: "Online Betting ID India", href: "#" },
+  { label: "Mahadev Book Online Book", href: "#" },
+  { label: "Mahadev Book Official", href: "/" },
 ];
 
 const socialLinks = [
@@ -80,7 +81,7 @@ export default function Footer() {
               <span className="text-white font-bold text-xl">Mahadev Book</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
-              India&apos;s #1 trusted online betting platform. Mahadev Bookoffers the best betting experience with fast payouts and a wide range of casino and sports betting options.
+              Mahadev Book Betting Portal India’s most trusted sports insights and fantasy analytics service. Offering live odds, betting tips, and betting IDs across the country from 2018
             </p>
 
             {/* Social Links */}
@@ -121,7 +122,7 @@ export default function Footer() {
           {/* Column 3: Betting Platforms */}
           <div>
             <h3 className="text-white font-bold text-lg mb-5">
-              Betting Platforms
+              Supported Platforms
             </h3>
             <ul className="space-y-3">
               {bettingPlatforms.map((link, i) => (

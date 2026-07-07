@@ -9,25 +9,25 @@ const eeatCards = [
   {
     icon: GraduationCap,
     title: "Expertise",
-    desc: "Built by sports & gaming veterans with 15+ years of proven innovation.",
+    desc: "Created by veterans in sports & gaming with 15+ years of innovation",
     highlight: false,
   },
   {
     icon: Medal,
     title: "Experience",
-    desc: "Trusted by 1.2M+ users since 2018 with over 60M successful transactions.",
+    desc: "Trusted by 1.2M + users with 60M + successful transactions since 2018",
     highlight: false,
   },
   {
     icon: Crown,
     title: "Authority",
-    desc: "Recognized as India's leading betting platform by top industry awards.",
+    desc: "Recognized as India’s leading betting platform by industry authorities",
     highlight: false,
   },
   {
     icon: ShieldCheck,
     title: "Trust",
-    desc: "SSL encrypted, PCI-DSS compliant, and fair play certified by iTech Labs.",
+    desc: "SSL encrypted, PCI-DSS compliant, and fair-play certified by iTech Labs",
     highlight: true,
   },
 ];
