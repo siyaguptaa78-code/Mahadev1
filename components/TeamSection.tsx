@@ -8,7 +8,7 @@ const team = [
   {
     name: "Rajiv Mehta",
     title: "Senior Sports Analyst",
-    bio: "12+ years experience in cricket analytics. Former statistical consultant for IPL teams.",
+    bio: "12+ years experience in cricket analytical services. Former statistical consultant for IPL teams.",
     credentials: ["M.Sc. Statistics", "Certified Sports Analyst"],
     initials: "RM",
     color: "from-blue-500 to-blue-700",
@@ -16,7 +16,7 @@ const team = [
   {
     name: "Priya Sharma",
     title: "Cybersecurity Head",
-    bio: "Expert in financial transaction security with certifications in cybersecurity and fraud prevention.",
+    bio: "Financial transaction security expert with certifications in cyber security and fraud detection",
     credentials: ["CISSP Certified", "PCI-DSS Specialist"],
     initials: "PS",
     color: "from-purple-500 to-purple-700",
@@ -24,7 +24,7 @@ const team = [
   {
     name: "Vikram Singh",
     title: "Operations Director",
-    bio: "15+ years in gaming operations and customer experience management.",
+    bio: "15+ years in the sports gaming industry with extensive knowledge in business operations",
     credentials: ["MBA, Operations", "iGaming Certified"],
     initials: "VS",
     color: "from-green-500 to-green-700",
@@ -51,11 +51,10 @@ export default function TeamSection() {
             id="team-heading"
             className="text-3xl md:text-4xl font-black text-gray-900 mb-4"
           >
-            Meet Our <span className="text-yellow-500">Expert Team</span>
+            Meet Our <span className="text-yellow-500">Experts</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Our team of sports analysts, data scientists, and industry veterans
-            brings decades of combined experience to Mahadev Book.
+            A team of highly-skilled sports analysts, cybersecurity experts, and business operations managers who have years of experience in the sports and betting industry.
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>

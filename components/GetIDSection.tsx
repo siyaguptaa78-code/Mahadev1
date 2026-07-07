@@ -6,11 +6,11 @@ import { fadeInUp, staggerContainer } from "@/hooks/useScrollAnimation";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const benefits = [
-  "Quick and hassle-free registration with your own Mahadev Book ID.",
-  "Instant login access for seamless play across devices.",
-  "Step-by-step guidance during sign up and verification.",
-  "Safe deposits and withdrawals backed by secure systems.",
-  "24/7 support so you're never stuck waiting for help.",
+  "Quick and easy registration using your Mahadev Book ID.",
+  "Fast log in and enjoy a wide range of betting options.",
+  "Simple guide on how to open an account on theMahadev Book.",
+  "Secure deposits and withdrawals using the best and most trusted digital wallets.",
+  "24/7 customer support to assist you with any queries or concerns.",
 ];
 
 export default function GetIDSection() {
@@ -46,10 +46,7 @@ export default function GetIDSection() {
           </h2>
 
           <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mx-auto">
-            Mahadev Book is one of India&apos;s most trusted platforms for
-            online betting and gaming. It&apos;s built to be simple, safe, and
-            fast — so whether you&apos;re new or experienced, getting started is
-            easy.
+            Mahadev Bookis one of the most trusted online betting platforms in India. It has the necessary tools and features that enable you to bet on your favorite sports and games with ease and confidence. Moreover, it provides you with a convenient and flexible betting experience, letting you choose between desktop, mobile, or even the app. Therefore, it is the best betting platform trusted by thousands of Indians who value a reliable, smooth, and transparent betting experience.
           </p>
 
           <motion.ul
@@ -74,10 +71,7 @@ export default function GetIDSection() {
           </motion.ul>
 
           <p className="text-gray-400 leading-relaxed mt-4">
-            Thousands of players already trust the official site for transparent
-            and secure play. You can join them today by downloading the{" "}
-            <strong className="text-white">app</strong> or simply using the
-            website on desktop and mobile.
+            Thousands of sports bettors trust the official website for secure and reliable betting services. You can also use theMahadev Book App to access the betting site conveniently and safely from your mobile phone. So why not join them and get your verified ID today? It only takes a few minutes!
           </p>
 
           <p className="text-gray-300 font-semibold text-lg">

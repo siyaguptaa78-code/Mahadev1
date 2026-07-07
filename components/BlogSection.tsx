@@ -72,8 +72,7 @@ export default function BlogSection() {
             Explore Our <span className="text-yellow-500">Recent Blogs</span>
           </h2>
           <p className="text-gray-600 max-w-xl mx-auto">
-            Stay updated with the latest news, tips, and insights from the world
-            of online betting.
+            Stay updated with the latest news, insights and updates relating to betting services
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>

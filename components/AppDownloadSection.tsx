@@ -6,21 +6,21 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import Link from "next/link";
 
 const appFeatures = [
-  "Live betting on cricket, football, tennis, kabaddi & more",
+  "Live betting on sports events and casino games",
   "Get your verified betting ID instantly",
-  "Fast withdrawals with encrypted payment gateways",
-  "Simple navigation and smooth user experience",
-  "Exclusive bonuses, offers, and referral rewards",
-  "Real-time odds with a secure gaming environment",
-  "100% safe and responsible betting experience",
+  "Funds deposited directly to your betting wallet",
+  "Quick and easy deposits and withdrawals using digital wallets and UPI",
+  "Excellent features for seamless betting experience",
+  "Live scores and odds with an enhanced betting environment",
+  "100% safe and secure betting experience",
 ];
 
 const downloadSteps = [
-  "Visit our official website or contact us on WhatsApp",
+  "Find the download link on our website or contact us via WhatsApp",
   'Click on the "Mahadev Betting App" button',
-  "Allow permissions and install the app",
-  "Sign up or log in using your ID credentials",
-  "Start betting on live matches and casino games instantly",
+  "Give permissions and install the betting app",
+  "Sign up or log in to your account using your betting ID",
+  "Start betting on live matches and casino games",
 ];
 
 export default function AppDownloadSection() {
@@ -50,25 +50,18 @@ export default function AppDownloadSection() {
             </h2>
 
             <p className="text-gray-300 text-lg leading-relaxed">
-              Looking for a reliable and feature-rich online betting app in
-              India? The{" "}
+              Looking for the best betting app in India?{" "}
               <Link
                 href="/mahadev-betting-app"
                 className="text-yellow-400 underline hover:text-yellow-300 transition-colors"
               >
                 Mahadev Book Official App
-              </Link>{" "}
-              is your go-to destination for secure sports betting, live cricket,
-              and casino games.
+              </Link>
+              is the best choice for fast and easy betting on sports events and live casino games.
             </p>
 
             <p className="text-gray-400 leading-relaxed">
-              Compatible with both{" "}
-              <strong className="text-white">Android and iOS</strong>, the
-              mobile app features a user-friendly interface tailored for Indian
-              users. With real-time match updates, encrypted payments, instant
-              deposits, quick withdrawals, and 24/7 customer support — this is
-              India&apos;s most dependable online betting app.
+              Featuring responsive and interactive UI, Mahadev Book Appis compatible with both Android and iOS mobile devices.
             </p>
 
             {/* Key Features */}
@@ -103,7 +96,7 @@ export default function AppDownloadSection() {
             {/* Download Steps */}
             <div>
               <h3 className="text-yellow-400 font-bold text-xl mb-4">
-                How to Download the App on Android & iOS
+                How to Download Mahadev Betting App
               </h3>
               <ol className="space-y-3">
                 {downloadSteps.map((step, i) => (
@@ -129,8 +122,7 @@ export default function AppDownloadSection() {
                 <span>📱</span> Get Your Online Cricket ID Now
               </Link>
               <p className="text-gray-500 text-sm">
-                Bet responsibly — Mahadev Book encourages fair play and secure
-                gaming.
+                Bet responsibly - Mahadev Book encourages responsible and fair-play gambling.
               </p>
             </div>
           </motion.div>

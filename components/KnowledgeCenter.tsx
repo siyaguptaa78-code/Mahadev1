@@ -10,19 +10,19 @@ const knowledgeCards = [
   {
     icon: TrendingUp,
     title: "Beginner's Guide to Cricket Betting",
-    desc: "Learn the fundamentals of cricket betting with our comprehensive guide developed by professional analysts.",
+    desc: "Learn the basics of cricket betting with our informative guide.",
     linkText: "Read Guide →",
   },
   {
     icon: Calculator,
     title: "Odds Calculation Masterclass",
-    desc: "Understand how odds work and how to identify value bets with our expert tutorials.",
+    desc: "Learn how to calculate betting odds like a pro.",
     linkText: "Learn Now →",
   },
   {
     icon: ShieldCheck,
     title: "Safe Betting Practices",
-    desc: "Our security team's essential guide to protecting your account and betting responsibly.",
+    desc: "A comprehensive guide to secure betting practices by our security experts.",
     linkText: "Read Safety Guide →",
   },
 ];
@@ -47,12 +47,10 @@ export default function KnowledgeCenter() {
             id="knowledge-heading"
             className="text-3xl md:text-4xl font-black text-gray-900 mb-4"
           >
-            Betting Education &{" "}
-            <span className="text-yellow-500">Strategy Center</span>
+            Education & <span className="text-yellow-500">Strategies</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Empowering our community with knowledge-based betting approaches
-            developed by our experts.
+            Bet like a pro with our expert betting strategies and guides
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>
@@ -104,8 +102,8 @@ export default function KnowledgeCenter() {
             Live Expert Webinars
           </h3>
           <p className="text-gray-400 mb-6 max-w-xl mx-auto">
-            Join our weekly webinars with professional bettors and analysts.
-            Next session:{" "}
+            Join our weekly pro-bettor webinars for expert betting advice and tips.
+            Next webinar:{" "}
             <span className="text-yellow-400 font-semibold">
               &quot;IPL 2024 Betting Strategies&quot;
             </span>
@@ -115,7 +113,7 @@ export default function KnowledgeCenter() {
             id="webinar-register-btn"
             className="inline-flex items-center gap-2 bg-yellow-400 text-black font-bold px-8 py-3 rounded-xl hover:bg-yellow-300 transition-all duration-300"
           >
-            Register for Free Webinar
+            Register for Webinar
           </Link>
         </motion.div>
       </div>

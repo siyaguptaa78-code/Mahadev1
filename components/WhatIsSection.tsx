@@ -75,14 +75,10 @@ export default function WhatIsSection() {
             className="space-y-4"
           >
             <p className="text-gray-700 text-lg leading-relaxed">
-              <strong>Mahadev Book</strong> is one of India&apos;s most popular
-              and trusted online betting platforms. It is known for its secure
-              system, smooth user experience, and wide variety of games.
+              <strong>Mahadev Book</strong>is one of India&apos;s most trusted online betting portals that offer the best interface for betting on sports, casino, and other games.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              In short, <strong>Mahadev Book</strong> is a complete betting
-              platform — combining entertainment, security, and convenience for
-              both casual players and professional bettors.
+              In short, <strong>Mahadev Book</strong>is the perfect one-stop shop for all gaming needs, offering the best user experience with fun and security features for newbie and expert bettors.
             </p>
 
             {/* Highlight box */}

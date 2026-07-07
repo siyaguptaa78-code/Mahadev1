@@ -8,32 +8,32 @@ import Link from "next/link";
 const benefits = [
   {
     title: "Trustworthy, Transparent, Tried",
-    desc: "When you join the platform, you're becoming part of a community backed by 100% verified credentials and real-time betting support. Unlike platforms that create confusion, it's built on transparency and player-first ethics.",
+    desc: "Join the list of verified and trusted online bettors who enjoy 100% legitimate betting services. Unlike many other sites that mislead their users, Mahadev Bookis based on a transparent betting framework and trustworthy procedures.",
     reverse: false,
   },
   {
     title: "Lightning-Fast Verification & Login",
-    desc: "Your journey starts the moment you request your account. No delay, no hidden steps. Whether you're on desktop or mobile, logging in is quick and frictionless — thanks to a well-optimized system trusted across India.",
+    desc: "Your betting journey begins the moment your account is verified. There are no holds or further steps required to gain full access to your betting dashboard. The verification is rapid and straightforward and is performed using an optimized system that has been tested and trusted by millions of users across India.",
     reverse: true,
   },
   {
     title: "Optimized for Cricket, Casino & More",
-    desc: "From IPL to roulette, your Mahadev Book ID gives access to the best betting markets in India. The interface is responsive, user-friendly, and always aligned with the latest events.",
+    desc: "Your verified Mahadev Book ID grants you access to the best betting options in India. The multiple betting markets, ranging from IPL cricket to live casino games, are all available on an easy-to-access system that is optimized for speed and performance.",
     reverse: false,
   },
   {
     title: "Bonuses that Actually Pay",
-    desc: "No gimmicks, just pure value. Regular cashback, deposit offers, and win bonuses show up directly in your account. You always know what you're getting — and when.",
+    desc: "Enjoy extra rewards with every bet you place on Mahadev Book. Multiple cashback, deposit, and win bonuses are available to all users and can be accessed with just a simple click. Our bonuses are always clear, trustworthy, and easy to redeem.",
     reverse: true,
   },
   {
     title: "Secure Transactions and Instant Withdrawals",
-    desc: "Safety is not optional. With advanced encryption and verified banking channels, your deposits and withdrawals are fast, reliable, and secure. No payout delays, no excuses — just real wins in real time.",
+    desc: "The online betting experience is made easy and reliable with enhanced security measures and instant withdrawal options. Your deposits and withdrawals are processed via secure and encrypted digital channels, guaranteeing fast, hassle-free transactions.",
     reverse: false,
   },
   {
     title: "Play Anywhere with Mahadev Betting App",
-    desc: "Whether you're on a train, at work, or relaxing at home, the Mahadev Betting App ensures that you never miss a moment. It's fast, fully secure, and works on all major devices.",
+    desc: "The Mahadev Betting Appis the best way to enjoy betting on the go. Whether you are traveling or at work, you can bet on your favorite sports and casino games securely and conveniently with the Mahadev Betting App.",
     reverse: true,
     hasLink: true,
   },
@@ -106,16 +106,14 @@ export default function BenefitsSection() {
                   <p className="text-gray-600 leading-relaxed">
                     {benefit.hasLink ? (
                       <>
-                        Whether you&apos;re on a train, at work, or relaxing at
-                        home, the{" "}
+                        The{" "}
                         <Link
                           href="/mahadev-betting-app"
                           className="text-yellow-600 font-semibold hover:underline"
                         >
                           Mahadev Betting App
-                        </Link>{" "}
-                        ensures that you never miss a moment. It&apos;s fast,
-                        fully secure, and works on all major devices.
+                        </Link>
+                        is the best way to enjoy betting on the go. Whether you are traveling or at work, you can bet on your favorite sports and casino games securely and conveniently with the Mahadev Betting App.
                       </>
                     ) : (
                       benefit.desc

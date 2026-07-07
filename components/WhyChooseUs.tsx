@@ -10,32 +10,32 @@ const features = [
   {
     icon: Lock,
     title: "A Secure & Trusted Platform",
-    desc: "Your data and money are always safe. The official website uses advanced encryption and regular updates to protect every login and transaction — whether you play on the site or use the app.",
+    desc: "Your personal and financial information is safe with us as we use advanced security systems to protect your data. Playing at Mahadev Bookmeans that you are at the most reliable online betting site that has implemented cutting-edge technology to safeguard your deposits and withdrawals. You can also bet on the go as the site works flawlessly on both mobile and desktop.",
   },
   {
     icon: Headphones,
     title: "24/7 Support",
-    desc: "Need help with login, registration, or your ID? Our friendly support team is available anytime via live chat, WhatsApp, or email. Help is always just a click away.",
+    desc: "The Mahadev Booksupport team is at your service to provide you with quality assistance any time you need. Whether you need help with your login or withdraw your winnings, the support team is available around the clock.",
   },
   {
     icon: Zap,
     title: "Instant Withdrawals",
-    desc: "No waiting for your winnings. Withdrawals are processed within minutes through secure payment channels, giving you fast access to your money whenever you need it.",
+    desc: "At Mahadev Book, withdrawals are processed within a short time as we value your interest in betting. Therefore, there are no delays when cashing out your profits, and you can enjoy your earnings anytime you want.",
   },
   {
     icon: UserPlus,
-    title: "Simple Account Setup",
-    desc: "Creating your account takes only a few minutes. Our step-by-step registration is designed to be quick, even if you're new to online betting.",
+    title: "Easy Account Opening",
+    desc: "You can start betting within minutes as opening an account at Mahadev Bookis super simple and fast.",
   },
   {
     icon: Crown,
-    title: "Premium Betting Access",
-    desc: "With a verified ID, you unlock exclusive tools, live updates, and insights that give you an edge. Both the app and website offer premium features designed to make betting smarter.",
+    title: "Access Premium Betting Features",
+    desc: "Having your verified betting ID unlocks a variety of premium features designed to give you an advantage over other bettors. Moreover, Mahadev Bookprovides a wide range of exciting sports betting and live casino games that are easy to navigate both on a desktop and mobile devices.",
   },
   {
     icon: LogIn,
-    title: "Fast & Reliable Login",
-    desc: "Your login is quick, secure, and always reliable. Optimized servers ensure smooth access with no delays, whether on desktop or mobile.",
+    title: "Fast Login & Secure Betting Experience",
+    desc: "Mahadev Bookis a fast and reliable online betting platform that ensures you have a great user experience. Logging in to your Mahadev Book account is easy on both mobile and desktop due to the optimized system used to host the site. You will have a blazing-fast experience that makes betting fun and engaging without encountering any technical challenges.",
   },
 ];
 
@@ -74,17 +74,11 @@ export default function WhyChooseUs() {
           className="max-w-3xl mx-auto text-center mb-14 space-y-3"
         >
           <p className="text-gray-400 leading-relaxed">
-            Picking the right betting platform matters.{" "}
-            <strong className="text-white">Mahadev Book</strong> is built to
-            give you a safe, simple, and rewarding experience. With advanced
-            technology and a strong reputation, we make sure every user —
-            beginner or expert — feels comfortable and supported.
+            Choosing the best platform to start your betting journey is essential.{" "}
+            <strong className="text-white">Mahadev Book</strong>is a reliable and trusted online betting portal that provides a safe and easy betting experience with fast withdrawals, advanced security features, multiple payment options, and a wide range of betting options.
           </p>
           <p className="text-gray-400 leading-relaxed">
-            By joining through the{" "}
-            <strong className="text-white">official site</strong>, you become
-            part of a trusted community that values reliability, speed, and data
-            security.
+            Moreover, when using <strong className="text-white">Mahadev Book</strong>, your betting experience is guaranteed to be smooth as we offer 24/7 customer support to assist you throughout your betting journey.
           </p>
         </motion.div>
 

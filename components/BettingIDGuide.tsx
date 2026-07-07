@@ -8,26 +8,25 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const strategyCards = [
   {
     icon: Lock,
-    title: "Secure Account Access",
-    desc: "Log in safely across all your devices using encrypted credentials to keep your account protected at all times.",
+    title: "Secure Betting Experience",
+    desc: "Access your betting account on all your devices using encrypted features to guarantee your security.",
   },
   {
     icon: Compass,
-    title: "Explore Betting Markets",
-    desc: "Access multiple markets including cricket, football, e-sports, and live casino games — all through one verified account.",
+    title: "Multiple Betting Options",
+    desc: "Access a wide range of betting options ranging from sports betting to live casino games",
   },
   {
     icon: BarChart2,
-    title: "Track and Manage Bets",
-    desc: "Use your personal dashboard to monitor bets, review outcomes, and plan your next moves with real-time updates.",
+    title: "Track your Activities",
+    desc: "Track and monitor all your betting activities using personal dashboards to stay ahead of the game.",
   },
 ];
 
 const responsibleBetting = [
-  "Set daily or weekly betting limits in your account",
-  "Avoid chasing losses and play within your means",
-  "Take breaks to maintain a healthy balance",
-  "Use tools like self-exclusion if needed",
+  "Use a self-exclusion feature in case your betting reaches problematic levels.",
+  "Set a daily or weekly limit on your deposits to avoid overdrafts",
+  "Take occasional breaks to ensure that betting doesn't affect your daily life",
 ];
 
 export default function BettingIDGuide() {
@@ -55,8 +54,7 @@ export default function BettingIDGuide() {
             <span className="text-yellow-500">Betting ID</span>
           </h2>
           <p className="text-gray-600 max-w-xl mx-auto">
-            Your essential guide to unlocking safe and strategic betting with
-            Mahadev Book
+            A complete guide to the Mahadev Book ID, which gives you access to the best verified online betting platform
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>
@@ -72,14 +70,10 @@ export default function BettingIDGuide() {
             What is a Mahadev Book ID?
           </h3>
           <p className="text-gray-300 leading-relaxed mb-4">
-            Your <strong className="text-white">Mahadev Book ID</strong> is a
-            personal access key to India&apos;s trusted online betting ecosystem.
-            With it, you can securely place bets on sports, casino games, and
-            virtual matches within a single platform.
+            Your <strong className="text-white">Mahadev Book ID</strong>is your key to accessing India&apos;s best online betting platform with verified security features. Using this powerful tool, you can bet on sports, casino, and other games at a fast and reliable online betting site with an array of betting options.
           </p>
           <p className="text-gray-400 leading-relaxed">
-            Think of it as your secure digital passport, offering seamless and
-            protected transactions in a feature-rich betting environment.
+            It is your secure key to engaging and enjoying a wide range of sports betting and live casino games with fast withdrawals.
           </p>
         </motion.div>
 
@@ -128,8 +122,7 @@ export default function BettingIDGuide() {
             <span>⚖️</span> Responsible Betting
           </h3>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            Your Mahadev Book ID unlocks exciting opportunities — but it&apos;s
-            equally important to bet responsibly:
+            Your verified Mahadev Book ID opens exciting opportunities but remember to bet wisely
           </p>
           <ul className="space-y-3">
             {responsibleBetting.map((item, i) => (
@@ -144,8 +137,7 @@ export default function BettingIDGuide() {
             ))}
           </ul>
           <p className="text-gray-600 mt-6 leading-relaxed">
-            The platform prioritizes your safety and wellbeing, helping you enjoy
-            betting with confidence and control.
+            The platform allows you to take control of your betting and enhances your betting experience by giving you the best tools to remain responsible.
           </p>
         </motion.div>
       </div>

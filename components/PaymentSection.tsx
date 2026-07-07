@@ -44,8 +44,7 @@ export default function PaymentSection() {
             <span className="text-yellow-500">Payment Options</span>
           </h2>
           <p className="text-gray-600 max-w-xl mx-auto">
-            We support all major payment methods so you can deposit and withdraw
-            with ease and confidence.
+            Trusted payment methods to enable fast deposits and withdrawals.
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>

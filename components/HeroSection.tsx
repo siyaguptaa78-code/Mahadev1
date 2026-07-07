@@ -40,35 +40,17 @@ export default function HeroSection() {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight">
             Mahadev Book –{" "}
             <span className="text-yellow-400">
-              India&apos;s Most Trusted
+              India&apos;s Most Trustr
             </span>{" "}
-            Online Betting Platform
+            Betting Platform
           </h1>
 
           <p className="text-gray-300 text-lg leading-relaxed">
-            Welcome to <strong className="text-white">Mahadev Book</strong>, the
-            online betting game-changer of all time. Betting isn&apos;t just
-            about chance; it&apos;s about timing, strategy, and choosing the
-            right platform. In India, the mahadev book is your trusted gateway
-            to a safe, authorized, and rewarding betting experience.
+            Join the most exciting online betting portal for the best betting experience. It is vital to know the best time to bet and select the best online betting portal with fast payouts and multiple games options to make the betting experience a great one. <strong className="text-white">Mahadev Book</strong> is India&apos;s most trusted betting platform where users have the best time betting with <strong className="text-yellow-400">60,000 plus live games</strong> each month, fast payouts, and encrypted transactions to offer the best betting experience.
           </p>
 
           <p className="text-gray-400 leading-relaxed">
-            Our platform ensures every user enjoys an outstanding experience
-            with over{" "}
-            <strong className="text-yellow-400">60,000 live events</strong> per
-            month, fast payouts, and fully encrypted transactions. Whether
-            you&apos;re new or experienced, your verified ID gives you access to
-            advanced tools and smart betting features.
-          </p>
-
-          <p className="text-gray-400 leading-relaxed">
-            Ready to start placing wise bets and winning big? Create your
-            account in just a few minutes and begin your journey toward
-            successful online gaming.{" "}
-            <strong className="text-white">
-              Unlimited wins with one secure ID – only on Mahadev Book!
-            </strong>
+            Create an account and start betting smartly to claim the best payouts. A verified ID offers the best of all worlds that come with great features and betting options.
           </p>
 
           {/* CTA Button */}

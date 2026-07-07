@@ -80,9 +80,7 @@ export default function Footer() {
               <span className="text-white font-bold text-xl">Mahadev Book</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
-              India&apos;s most trusted sports insights platform. Providing
-              data-driven analysis, prediction models, and educational resources
-              to sports enthusiasts nationwide.
+              India&apos;s #1 trusted online betting platform. Mahadev Bookoffers the best betting experience with fast payouts and a wide range of casino and sports betting options.
             </p>
 
             {/* Social Links */}
@@ -149,10 +147,8 @@ export default function Footer() {
               reserved.
             </p>
             <p className="text-gray-600 text-xs max-w-md">
-              Mahadev Book is an educational sports insights platform. All
-              content is for informational purposes only. Users must be{" "}
-              <strong className="text-gray-500">18+</strong> to access certain
-              features.
+              Mahadev Bookis an online betting platform. You must be{" "}
+              <strong className="text-gray-500">18+</strong> to access the services.
             </p>
             <div className="flex items-center gap-4 text-sm">
               <Link

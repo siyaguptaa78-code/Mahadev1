@@ -96,8 +96,7 @@ export default function ReviewsSection() {
             </span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Real feedback from verified Mahadev Book users who enjoy our trusted
-            and fast betting services.
+            See what our verified users say about Mahadev Bookand why they trust us with their betting needs.
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>

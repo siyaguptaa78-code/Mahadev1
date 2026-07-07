@@ -6,23 +6,23 @@ import { fadeInUp, staggerContainer } from "@/hooks/useScrollAnimation";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const complianceItems = [
-  "Regularly audited by independent testing agencies",
-  "Full compliance with data protection regulations",
-  "Transparent terms of service and privacy policies",
-  "Age verification protocols to prevent underage betting",
+  "Approved and certified by independent testing agencies",
+  "Protection of personal information and data privacy",
+  "Transparent terms and conditions and privacy policies",
+  "Responsible gambling policies and age restrictions",
 ];
 
 const certifications = [
   { icon: Award, label: "iTech Labs Certified RNG" },
-  { icon: ShieldCheck, label: "PCI DSS Level 1 Compliant" },
+  { icon: ShieldCheck, label: "PCI DSS Level 1 Compliance" },
   { icon: Lock, label: "256-bit SSL Encryption" },
 ];
 
 const responsibleFeatures = [
-  { icon: Wallet, title: "Deposit Limits", desc: "Set daily, weekly, or monthly deposit limits" },
-  { icon: Ban, title: "Self-Exclusion", desc: "Temporarily restrict access to your account" },
-  { icon: Clock, title: "Time-Outs", desc: "Take breaks from betting for set periods" },
-  { icon: Bell, title: "Reality Checks", desc: "Regular reminders of your betting activity" },
+  { icon: Wallet, title: "Deposit Limits", desc: "Set realistic weekly, monthly, or yearly deposit limits to prevent exceeding your allocated budget." },
+  { icon: Ban, title: "Self-Exclusion", desc: "Exclude yourself from using Mahadev Booktemporarily to allow yourself to regain control over your gambling activities." },
+  { icon: Clock, title: "Time-Outs", desc: "Take periodic breaks from gambling to help maintain a healthy work-life balance." },
+  { icon: Bell, title: "Reality Checks", desc: "Receive regular reminders and updates on your gambling activity to stay aware of your spending patterns." },
 ];
 
 export default function ComplianceSection() {
@@ -47,7 +47,7 @@ export default function ComplianceSection() {
             className="text-3xl md:text-4xl font-black text-white mb-4"
           >
             Legal Compliance &{" "}
-            <span className="text-yellow-400">Responsible Gaming</span>
+            <span className="text-yellow-400">Responsible Gambling</span>
           </h2>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>
@@ -64,8 +64,7 @@ export default function ComplianceSection() {
               Our Compliance Framework
             </h3>
             <p className="text-gray-400 mb-6">
-              Mahadev Book operates under international standards for fair play
-              and security:
+              Mahadev Bookis an official sports betting platform that complies with international standards and regulations to guarantee fair-play and transparency. Some of the compliance features include
             </p>
             <ul className="space-y-3">
               {complianceItems.map((item, i) => (
@@ -99,7 +98,7 @@ export default function ComplianceSection() {
             className="bg-gray-900 border border-gray-800 rounded-2xl p-8"
           >
             <h3 className="text-xl font-bold text-white mb-6">
-              Our Certifications
+              Our certifications include
             </h3>
             <div className="space-y-4">
               {certifications.map((cert, i) => (
@@ -125,11 +124,10 @@ export default function ComplianceSection() {
           className="bg-gray-900 border border-yellow-400/20 rounded-2xl p-8"
         >
           <h3 className="text-2xl font-black text-white mb-3 text-center">
-            Commitment to Responsible Gaming
+            Commitment to Responsible Gambling
           </h3>
           <p className="text-gray-400 text-center mb-8 max-w-2xl mx-auto">
-            We provide tools to help you maintain control of your betting
-            activities:
+            At Mahadev Book, we encourage responsible gambling and a positive betting experience among our users. To achieve this, we have put in place various responsible gambling tools to help you stay in control of your betting activities.
           </p>
 
           <motion.div
@@ -154,8 +152,7 @@ export default function ComplianceSection() {
           </motion.div>
 
           <p className="text-gray-500 text-center mt-8 text-sm">
-            Need help? Contact our support team for assistance with responsible
-            gaming tools.
+            If you need any assistance with these responsible gambling tools, you can always contact our 24/7 customer support.
           </p>
         </motion.div>
       </div>

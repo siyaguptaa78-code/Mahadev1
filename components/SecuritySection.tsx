@@ -6,16 +6,15 @@ import { fadeInLeft, fadeInRight } from "@/hooks/useScrollAnimation";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const securityPoints = [
-  "The platform is built with advanced encryption to keep your data and funds safe.",
-  "All transactions are processed via secure gateways like UPI, net banking, and wallets.",
-  "Multi-layered protection with real-time threat detection and identity verification.",
-  "Responsible gaming tools — set deposit limits and take breaks as needed.",
-  "Transparent operations with no hidden charges or deductions.",
-  "Regular audits ensure fairness and compliance with Indian regulations.",
-  "Consistent, secure, and fast experience across devices and browsers.",
-  "24/7 live chat support for instant assistance.",
-  "Your betting remains private and fully protected, whether on cricket, football, or casino games.",
-  "Getting your verified Mahadev Book ID is the first step toward safe, long-term betting.",
+  "Advanced security features to keep your funds and personal data safe.",
+  "Fast and secure transactions using trusted digital wallets and net-banking.",
+  "Multi-layered security protection against fraudulent activities.",
+  "Responsible Gaming tools to prevent problem gambling.",
+  "Transparent and trustworthy operations with no hidden fees.",
+  "Seamless multi-device experience with end-to-end encryption.",
+  "Round-the-clock customer support for live assistance.",
+  "Your betting activities remain secure and private on Mahadev Book. Betting on sports and casino games is made easy and safe with real-time odds, enhanced encryption, and reliable withdrawal options.",
+  "Getting your verified Mahadev Book ID is the first step towards enjoying a seamless, secure, and reliable betting experience.",
 ];
 
 export default function SecuritySection() {

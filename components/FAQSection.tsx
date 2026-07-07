@@ -10,7 +10,7 @@ const faqs = [
   {
     id: "faq1",
     q: "What is Mahadev Book Online Betting ID?",
-    a: "The Mahadev Book Online Betting ID is a verified account that lets you access betting services such as cricket, casino, poker, and more. With this ID, users can deposit funds, place bets, and enjoy a secure gaming experience.",
+    a: "The Mahadev Book Online Betting ID is a verified account that grants you access to the best betting services, including sports betting, casino, poker, and more. With this ID, you can fund and withdraw your bets easily and securely.",
   },
   {
     id: "faq2",
@@ -166,7 +166,7 @@ export default function FAQSection() {
             <span className="text-yellow-500">Questions</span>
           </h2>
           <p className="text-gray-600">
-            Everything you need to know about Mahadev Book
+            Your Frequently Asked Questions about Mahadev Book
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>

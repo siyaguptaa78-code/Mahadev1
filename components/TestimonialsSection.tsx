@@ -10,7 +10,7 @@ const testimonials = [
     name: "Rahul Sharma",
     city: "Mumbai",
     review:
-      "The Mahadev Book app completely changed my cricket strategy. Their match insights are accurate and easy to follow.",
+      "The Mahadev Book app has transformed my betting experience. Their match predictions are accurate and reliable, making it easy to place winning bets.",
     rating: 5,
     color: "from-blue-500 to-blue-700",
     initials: "RS",
@@ -19,7 +19,7 @@ const testimonials = [
     name: "Priya Patel",
     city: "Delhi",
     review:
-      "The website offers amazing analytics for football and cricket. Logging in is quick, and everything is well organized.",
+      "The website offers amazing football and cricket betting analysis. The login process is quick and convenient.",
     rating: 4.5,
     color: "from-purple-500 to-purple-700",
     initials: "PP",
@@ -28,7 +28,7 @@ const testimonials = [
     name: "Vikram Singh",
     city: "Bangalore",
     review:
-      "I love how smooth the Mahadev Book registration and betting process is. It's simple, fast, and perfect for all devices.",
+      "I love the Mahadev Book instant registration and betting features. It is super easy to navigate and use on different devices.",
     rating: 5,
     color: "from-green-500 to-green-700",
     initials: "VS",
@@ -80,8 +80,7 @@ export default function TestimonialsSection() {
             Says
           </h2>
           <p className="text-gray-600 max-w-xl mx-auto">
-            See why players across India trust our platform for their sports and
-            gaming experience.
+            See why users across India trust Mahadev Bookfor their sports betting and gaming needs.
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>
