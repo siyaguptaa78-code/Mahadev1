@@ -10,6 +10,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/about", priority: 0.8, changeFrequency: "monthly" as const },
     { url: "/blog", priority: 0.9, changeFrequency: "weekly" as const },
     {
+      url: "/icc-team-rankings",
+      priority: 0.9,
+      changeFrequency: "weekly" as const,
+    },
+    {
       url: "/mahadev-betting-app",
       priority: 0.9,
       changeFrequency: "monthly" as const,

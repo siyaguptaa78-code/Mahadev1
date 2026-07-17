@@ -10,6 +10,16 @@ export const metadata: Metadata = generatePageMetadata(
 
 const blogPosts = [
   {
+    slug: "/icc-team-rankings/",
+    title: "ICC Team Rankings: Test, ODI & T20I",
+    date: "July 14, 2026",
+    category: "Rankings",
+    excerpt: "Current ICC team rankings across all formats — men's Test, ODI and T20I plus women's rankings. Who's No.1, who's climbing.",
+    gradient: "from-amber-500 to-yellow-600",
+    emoji: "🏆",
+    buttonText: "Read More",
+  },
+  {
     slug: "benefits-of-having-a-verified-mahadev-book-id-2025",
     title: "Benefits of Having a Verified Mahadev Book ID in 2025",
     date: "October 26, 2025",
@@ -75,10 +85,10 @@ export default function BlogPage() {
                 <h2 className="text-xl font-bold text-gray-900 mb-3">{post.title}</h2>
                 <p className="text-gray-600 text-sm mb-4">{post.excerpt}</p>
                 <Link
-                  href={`/blog/${post.slug}`}
+                  href={post.slug.startsWith('/') ? post.slug : `/blog/${post.slug}`}
                   className="inline-flex items-center gap-1 text-yellow-600 font-semibold hover:text-yellow-500 transition-colors"
                 >
-                  Read More →
+                  {post.buttonText || "Read More"} →
                 </Link>
               </div>
             </article>

@@ -8,6 +8,17 @@ import Link from "next/link";
 
 const blogs = [
   {
+    slug: "/icc-team-rankings/",
+    title: "ICC Team Rankings: Test, ODI & T20I",
+    date: "July 14, 2026",
+    time: "",
+    category: "Rankings",
+    categoryColor: "bg-yellow-400 text-black",
+    gradient: "from-amber-500 to-yellow-600",
+    emoji: "🏆",
+    buttonText: "Show More",
+  },
+  {
     slug: "benefits-of-having-a-verified-mahadev-book-id-2025",
     title: "Benefits of Having a Verified Mahadev Book ID in 2025",
     date: "October 26, 2025",
@@ -117,15 +128,15 @@ export default function BlogSection() {
 
                 {/* Title */}
                 <h3 className="font-bold text-gray-900 text-base leading-snug group-hover:text-yellow-600 transition-colors">
-                  <Link href={`/blog/${blog.slug}`}>{blog.title}</Link>
+                  <Link href={blog.slug.startsWith('/') ? blog.slug : `/blog/${blog.slug}`}>{blog.title}</Link>
                 </h3>
 
-                {/* Read More */}
+                {/* Read More / Show More */}
                 <Link
-                  href={`/blog/${blog.slug}`}
+                  href={blog.slug.startsWith('/') ? blog.slug : `/blog/${blog.slug}`}
                   className="inline-flex items-center gap-1 text-yellow-600 text-sm font-semibold mt-4 hover:gap-2 transition-all"
                 >
-                  Read More →
+                  {blog.buttonText || "Read More"} →
                 </Link>
               </div>
             </motion.article>
