@@ -56,7 +56,7 @@ export default function HeroSection() {
           {/* CTA Button */}
           <div className="flex flex-col sm:flex-row gap-4 pt-2">
             <Link
-              href="https://wa.me/916026703858"
+              href="https://wa.me/8796686330"
               id="hero-get-id-btn"
               target="_blank"
               rel="noopener noreferrer"
@@ -107,7 +107,7 @@ export default function HeroSection() {
                   <p className="text-yellow-400 font-semibold mt-1">Official Betting Platform</p>
                 </div>
                 <Link
-                  href="https://wa.me/916026703858"
+                  href="https://wa.me/8796686330"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-green-600 hover:bg-green-500 text-white font-bold px-6 py-3 rounded-xl flex items-center gap-2 transition-all duration-300 shadow-lg shadow-green-600/30"

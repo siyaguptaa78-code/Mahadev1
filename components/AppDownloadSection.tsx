@@ -113,7 +113,7 @@ export default function AppDownloadSection() {
             {/* CTA */}
             <div className="space-y-3 pt-2">
               <Link
-                href="https://wa.me/916026703858"
+                href="https://wa.me/8796686330"
                 id="app-download-cta-btn"
                 target="_blank"
                 rel="noopener noreferrer"

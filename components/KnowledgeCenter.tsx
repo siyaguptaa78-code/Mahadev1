@@ -121,7 +121,7 @@ export default function KnowledgeCenter() {
             </span>
           </p>
           <Link
-            href="/login"
+            href="https://reddynow.com/"
             id="webinar-register-btn"
             className="inline-flex items-center gap-2 bg-yellow-400 text-black font-bold px-8 py-3 rounded-xl hover:bg-yellow-300 transition-all duration-300"
           >

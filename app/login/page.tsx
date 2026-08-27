@@ -53,7 +53,7 @@ export default function LoginPage() {
           <div className="mt-6 text-center">
             <p className="text-gray-400 text-sm">
               Don&apos;t have an ID?{" "}
-              <Link href="/register" className="text-yellow-400 font-semibold hover:underline">
+              <Link href="https://reddynow.com/" className="text-yellow-400 font-semibold hover:underline">
                 Register now
               </Link>
             </p>
@@ -63,7 +63,7 @@ export default function LoginPage() {
           <div className="mt-6 pt-6 border-t border-gray-800 text-center">
             <p className="text-gray-500 text-sm mb-3">Need help? Contact us on</p>
             <Link
-              href="https://wa.me/916026703858"
+              href="https://wa.me/8796686330"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-green-400 font-semibold hover:text-green-300 transition-colors"

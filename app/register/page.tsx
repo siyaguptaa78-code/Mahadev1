@@ -22,7 +22,7 @@ export default function RegisterPage() {
               Fastest way to register — Contact us on WhatsApp
             </p>
             <Link
-              href="https://wa.me/916026703858"
+              href="https://wa.me/8796686330"
               id="register-whatsapp-btn"
               target="_blank"
               rel="noopener noreferrer"
@@ -88,7 +88,7 @@ export default function RegisterPage() {
           <div className="mt-6 text-center">
             <p className="text-gray-400 text-sm">
               Already have an ID?{" "}
-              <Link href="/login" className="text-yellow-400 font-semibold hover:underline">
+              <Link href="https://reddynow.com/" className="text-yellow-400 font-semibold hover:underline">
                 Login here
               </Link>
             </p>

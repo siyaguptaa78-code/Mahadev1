@@ -24,7 +24,7 @@ export default function MahadevBettingAppPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link
-              href="https://wa.me/916026703858"
+              href="https://wa.me/8796686330"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-yellow-400 text-black font-bold px-8 py-4 rounded-xl hover:bg-yellow-300 transition-all"

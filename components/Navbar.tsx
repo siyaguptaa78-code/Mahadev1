@@ -62,14 +62,14 @@ export default function Navbar() {
           {/* Auth Buttons (Desktop) */}
           <div className="hidden lg:flex items-center gap-3">
             <Link
-              href="/login"
+              href="https://reddynow.com/"
               id="nav-login-btn"
               className="px-5 py-2 border-2 border-yellow-400 text-yellow-400 font-semibold text-sm rounded-lg hover:bg-yellow-400 hover:text-black transition-all duration-300"
             >
               Login
             </Link>
             <Link
-              href="/register"
+              href="https://reddynow.com/"
               id="nav-register-btn"
               className="px-5 py-2 bg-yellow-400 text-black font-semibold text-sm rounded-lg hover:bg-yellow-500 transition-all duration-300 shadow-md shadow-yellow-400/20"
             >
@@ -120,14 +120,14 @@ export default function Navbar() {
               ))}
               <div className="flex gap-3 mt-4 px-4 pb-2">
                 <Link
-                  href="/login"
+                  href="https://reddynow.com/"
                   onClick={() => setIsOpen(false)}
                   className="flex-1 text-center py-3 border-2 border-yellow-400 text-yellow-400 font-semibold rounded-lg hover:bg-yellow-400 hover:text-black transition-all duration-300 text-sm"
                 >
                   Login
                 </Link>
                 <Link
-                  href="/register"
+                  href="https://reddynow.com/"
                   onClick={() => setIsOpen(false)}
                   className="flex-1 text-center py-3 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300 text-sm"
                 >

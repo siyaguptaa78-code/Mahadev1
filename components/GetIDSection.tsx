@@ -84,7 +84,7 @@ export default function GetIDSection() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <a
-              href="https://wa.me/916026703858"
+              href="https://wa.me/8796686330"
               id="get-id-whatsapp-btn"
               target="_blank"
               rel="noopener noreferrer"
@@ -96,7 +96,7 @@ export default function GetIDSection() {
               Get Your ID via WhatsApp
             </a>
             <a
-              href="/register"
+              href="https://reddynow.com/"
               id="get-id-register-btn"
               className="inline-flex items-center justify-center gap-2 border-2 border-yellow-400 text-yellow-400 font-bold text-lg px-10 py-4 rounded-xl hover:bg-yellow-400 hover:text-black transition-all duration-300"
             >

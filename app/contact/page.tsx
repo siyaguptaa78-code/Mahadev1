@@ -25,7 +25,7 @@ export default function ContactPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <a
-            href="https://wa.me/916026703858"
+            href="https://wa.me/8796686330"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-600 hover:bg-green-500 rounded-2xl p-8 flex flex-col items-center gap-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-600/30"
@@ -67,7 +67,7 @@ export default function ContactPage() {
             Contact us via WhatsApp to get your verified ID instantly.
           </p>
           <Link
-            href="https://wa.me/916026703858"
+            href="https://wa.me/8796686330"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-yellow-400 text-black font-bold px-8 py-4 rounded-xl hover:bg-yellow-300 transition-all"
