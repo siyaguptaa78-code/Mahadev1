@@ -12,8 +12,12 @@ export default function RegisterPage() {
             <div className="w-16 h-16 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center mx-auto mb-4 shadow-lg shadow-yellow-400/30">
               <span className="text-black font-black text-2xl">M</span>
             </div>
-            <h1 className="text-2xl font-black text-white">Get Your Mahadev Book ID</h1>
-            <p className="text-gray-400 text-sm mt-1">Create your account in minutes</p>
+            <h1 className="text-2xl font-black text-white">
+              Get Your Mahadev Book ID
+            </h1>
+            <p className="text-gray-400 text-sm mt-1">
+              Create your account in minutes
+            </p>
           </div>
 
           {/* WhatsApp Registration CTA */}
@@ -44,7 +48,10 @@ export default function RegisterPage() {
           {/* Form */}
           <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
             <div>
-              <label htmlFor="reg-name" className="block text-sm font-semibold text-gray-300 mb-2">
+              <label
+                htmlFor="reg-name"
+                className="block text-sm font-semibold text-gray-300 mb-2"
+              >
                 Full Name
               </label>
               <input
@@ -55,7 +62,10 @@ export default function RegisterPage() {
               />
             </div>
             <div>
-              <label htmlFor="reg-phone" className="block text-sm font-semibold text-gray-300 mb-2">
+              <label
+                htmlFor="reg-phone"
+                className="block text-sm font-semibold text-gray-300 mb-2"
+              >
                 Phone Number
               </label>
               <input
@@ -66,7 +76,10 @@ export default function RegisterPage() {
               />
             </div>
             <div>
-              <label htmlFor="reg-password" className="block text-sm font-semibold text-gray-300 mb-2">
+              <label
+                htmlFor="reg-password"
+                className="block text-sm font-semibold text-gray-300 mb-2"
+              >
                 Create Password
               </label>
               <input
@@ -88,7 +101,10 @@ export default function RegisterPage() {
           <div className="mt-6 text-center">
             <p className="text-gray-400 text-sm">
               Already have an ID?{" "}
-              <Link href="https://reddynow.com/" className="text-yellow-400 font-semibold hover:underline">
+              <Link
+                href="https://www.Gabbar247.vip"
+                className="text-yellow-400 font-semibold hover:underline"
+              >
                 Login here
               </Link>
             </p>

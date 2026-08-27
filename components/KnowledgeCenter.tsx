@@ -62,7 +62,8 @@ export default function KnowledgeCenter() {
             Games You Can <span className="text-yellow-500">Play</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            With a verified Mahadev book ID, you gain access to all sports and live dealer casino games.
+            With a verified Mahadev book ID, you gain access to all sports and
+            live dealer casino games.
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>
@@ -114,14 +115,14 @@ export default function KnowledgeCenter() {
             Live Expert Webinars
           </h3>
           <p className="text-gray-400 mb-6 max-w-xl mx-auto">
-            Join our weekly pro-bettor webinars for expert betting advice and tips.
-            Next webinar:{" "}
+            Join our weekly pro-bettor webinars for expert betting advice and
+            tips. Next webinar:{" "}
             <span className="text-yellow-400 font-semibold">
               &quot;IPL 2024 Betting Strategies&quot;
             </span>
           </p>
           <Link
-            href="https://reddynow.com/"
+            href="https://www.Gabbar247.vip"
             id="webinar-register-btn"
             className="inline-flex items-center gap-2 bg-yellow-400 text-black font-bold px-8 py-3 rounded-xl hover:bg-yellow-300 transition-all duration-300"
           >

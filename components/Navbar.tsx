@@ -36,7 +36,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group" aria-label="Mahadev Book Home">
+          <Link
+            href="/"
+            className="flex items-center gap-3 group"
+            aria-label="Mahadev Book Home"
+          >
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
               <span className="text-black font-black text-lg">M</span>
             </div>
@@ -46,7 +50,10 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-1" aria-label="Main navigation">
+          <nav
+            className="hidden lg:flex items-center gap-1"
+            aria-label="Main navigation"
+          >
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -62,14 +69,14 @@ export default function Navbar() {
           {/* Auth Buttons (Desktop) */}
           <div className="hidden lg:flex items-center gap-3">
             <Link
-              href="https://reddynow.com/"
+              href="https://www.Gabbar247.vip"
               id="nav-login-btn"
               className="px-5 py-2 border-2 border-yellow-400 text-yellow-400 font-semibold text-sm rounded-lg hover:bg-yellow-400 hover:text-black transition-all duration-300"
             >
               Login
             </Link>
             <Link
-              href="https://reddynow.com/"
+              href="https://www.Gabbar247.vip"
               id="nav-register-btn"
               className="px-5 py-2 bg-yellow-400 text-black font-semibold text-sm rounded-lg hover:bg-yellow-500 transition-all duration-300 shadow-md shadow-yellow-400/20"
             >
@@ -101,7 +108,10 @@ export default function Navbar() {
             transition={{ duration: 0.3, ease: "easeInOut" }}
             className="lg:hidden bg-black/98 border-t border-gray-800 overflow-hidden"
           >
-            <nav className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1" aria-label="Mobile navigation">
+            <nav
+              className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1"
+              aria-label="Mobile navigation"
+            >
               {navLinks.map((link, index) => (
                 <motion.div
                   key={link.href}
@@ -120,14 +130,14 @@ export default function Navbar() {
               ))}
               <div className="flex gap-3 mt-4 px-4 pb-2">
                 <Link
-                  href="https://reddynow.com/"
+                  href="https://www.Gabbar247.vip"
                   onClick={() => setIsOpen(false)}
                   className="flex-1 text-center py-3 border-2 border-yellow-400 text-yellow-400 font-semibold rounded-lg hover:bg-yellow-400 hover:text-black transition-all duration-300 text-sm"
                 >
                   Login
                 </Link>
                 <Link
-                  href="https://reddynow.com/"
+                  href="https://www.Gabbar247.vip"
                   onClick={() => setIsOpen(false)}
                   className="flex-1 text-center py-3 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300 text-sm"
                 >

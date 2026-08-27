@@ -13,14 +13,21 @@ export default function LoginPage() {
             <div className="w-16 h-16 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center mx-auto mb-4 shadow-lg shadow-yellow-400/30">
               <span className="text-black font-black text-2xl">M</span>
             </div>
-            <h1 className="text-2xl font-black text-white">Login to Mahadev Book</h1>
-            <p className="text-gray-400 text-sm mt-1">Access your betting account</p>
+            <h1 className="text-2xl font-black text-white">
+              Login to Mahadev Book
+            </h1>
+            <p className="text-gray-400 text-sm mt-1">
+              Access your betting account
+            </p>
           </div>
 
           {/* Form */}
           <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
             <div>
-              <label htmlFor="login-username" className="block text-sm font-semibold text-gray-300 mb-2">
+              <label
+                htmlFor="login-username"
+                className="block text-sm font-semibold text-gray-300 mb-2"
+              >
                 Username / Email
               </label>
               <input
@@ -31,7 +38,10 @@ export default function LoginPage() {
               />
             </div>
             <div>
-              <label htmlFor="login-password" className="block text-sm font-semibold text-gray-300 mb-2">
+              <label
+                htmlFor="login-password"
+                className="block text-sm font-semibold text-gray-300 mb-2"
+              >
                 Password
               </label>
               <input
@@ -53,7 +63,10 @@ export default function LoginPage() {
           <div className="mt-6 text-center">
             <p className="text-gray-400 text-sm">
               Don&apos;t have an ID?{" "}
-              <Link href="https://reddynow.com/" className="text-yellow-400 font-semibold hover:underline">
+              <Link
+                href="https://www.Gabbar247.vip"
+                className="text-yellow-400 font-semibold hover:underline"
+              >
                 Register now
               </Link>
             </p>
@@ -61,7 +74,9 @@ export default function LoginPage() {
 
           {/* WhatsApp CTA */}
           <div className="mt-6 pt-6 border-t border-gray-800 text-center">
-            <p className="text-gray-500 text-sm mb-3">Need help? Contact us on</p>
+            <p className="text-gray-500 text-sm mb-3">
+              Need help? Contact us on
+            </p>
             <Link
               href="https://wa.me/8796686330"
               target="_blank"

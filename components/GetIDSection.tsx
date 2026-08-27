@@ -40,13 +40,19 @@ export default function GetIDSection() {
             id="get-id-heading"
             className="text-3xl md:text-5xl font-black text-white leading-tight"
           >
-            Get Your{" "}
-            <span className="text-yellow-400">Mahadev Book ID</span> and
-            Start Today
+            Get Your <span className="text-yellow-400">Mahadev Book ID</span>{" "}
+            and Start Today
           </h2>
 
           <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mx-auto">
-            Mahadev Bookis one of the most trusted online betting platforms in India. It has the necessary tools and features that enable you to bet on your favorite sports and games with ease and confidence. Moreover, it provides you with a convenient and flexible betting experience, letting you choose between desktop, mobile, or even the app. Therefore, it is the best betting platform trusted by thousands of Indians who value a reliable, smooth, and transparent betting experience.
+            Mahadev Bookis one of the most trusted online betting platforms in
+            India. It has the necessary tools and features that enable you to
+            bet on your favorite sports and games with ease and confidence.
+            Moreover, it provides you with a convenient and flexible betting
+            experience, letting you choose between desktop, mobile, or even the
+            app. Therefore, it is the best betting platform trusted by thousands
+            of Indians who value a reliable, smooth, and transparent betting
+            experience.
           </p>
 
           <motion.ul
@@ -71,7 +77,11 @@ export default function GetIDSection() {
           </motion.ul>
 
           <p className="text-gray-400 leading-relaxed mt-4">
-            Thousands of sports bettors trust the official website for secure and reliable betting services. You can also use theMahadev Book App to access the betting site conveniently and safely from your mobile phone. So why not join them and get your verified ID today? It only takes a few minutes!
+            Thousands of sports bettors trust the official website for secure
+            and reliable betting services. You can also use theMahadev Book App
+            to access the betting site conveniently and safely from your mobile
+            phone. So why not join them and get your verified ID today? It only
+            takes a few minutes!
           </p>
 
           <p className="text-gray-300 font-semibold text-lg">
@@ -96,7 +106,7 @@ export default function GetIDSection() {
               Get Your ID via WhatsApp
             </a>
             <a
-              href="https://reddynow.com/"
+              href="https://www.Gabbar247.vip"
               id="get-id-register-btn"
               className="inline-flex items-center justify-center gap-2 border-2 border-yellow-400 text-yellow-400 font-bold text-lg px-10 py-4 rounded-xl hover:bg-yellow-400 hover:text-black transition-all duration-300"
             >
