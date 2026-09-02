@@ -9,44 +9,54 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const faqs = [
   {
     id: "faq1",
-    q: "What is Mahadev Book Online Betting ID?",
-    a: "The Mahadev Book Online Betting ID is a verified account that grants you access to the best betting services, including sports betting, casino, poker, and more. With this ID, you can fund and withdraw your bets easily and securely.",
+    q: "What is Mahadev Book?",
+    a: "Mahadev Book is the brand or website referenced on this domain. Check the site's current pages and terms for the latest information."
   },
   {
     id: "faq2",
-    q: "How does Mahadev Book work?",
-    a: "Mahadev Book works by providing registered users with a secure betting ID. After logging in, you can deposit funds, choose your favorite sports or casino games, and place bets in real time. Winnings can be withdrawn via bank transfer or UPI.",
+    q: "How does a Mahadev Book ID work?",
+    a: "An account ID is generally used to identify a user account. Refer to Mahadev Book's current account instructions and terms for the exact process."
   },
   {
     id: "faq3",
-    q: "How do I register for a new Online Betting ID?",
-    a: 'Go to the official site, click "Get Your ID," fill in your details, verify your account, and you\'re ready to start betting.',
+    q: "How can I access Mahadev Book?",
+    a: "Use the site's current official URL and verify the domain before entering any account information. Follow the access instructions published on the site."
   },
   {
     id: "faq4",
-    q: "What games can I play with my Mahadev Book ID?",
-    a: "Your ID gives you access to Teen Patti, Cricket Betting, Andar Bahar, Poker, Slots, Live Casino, and more entertainment options.",
+    q: "What sports are available on Mahadev Book?",
+    a: "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
   },
   {
     id: "faq5",
-    q: "How do I deposit money into my Mahadev Book account?",
-    a: "Deposits can be made using UPI, bank transfer, or other supported payment methods from your account dashboard.",
+    q: "Does Mahadev Book provide live sports information?",
+    a: "Check the site's current sports section for any live-event information and the terms that apply to its use."
   },
   {
     id: "faq6",
-    q: "How do I withdraw my winnings?",
-    a: "Go to the withdrawal section, enter your UPI ID or bank details, and submit a request. Processing times may vary depending on your payment method.",
+    q: "How can I get help with my Mahadev Book account?",
+    a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
   },
   {
     id: "faq7",
-    q: "Is Mahadev Book legal in India?",
-    a: "Online betting laws in India vary by state. While Mahadev Book operates online, it does not have official government licensing, making its legal status uncertain. Always check your local regulations.",
+    q: "How do I find Mahadev Book login information?",
+    a: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
   },
   {
     id: "faq8",
-    q: "Is Mahadev Book safe and trusted?",
-    a: "Safety depends on joining through verified sources. Mahadev Book uses secure payment channels, but risks like fraud and fake apps exist. Always verify the authenticity of your ID provider.",
+    q: "What payment options are supported?",
+    a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
   },
+  {
+    id: "faq9",
+    q: "What should I do if I have trouble accessing my account?",
+    a: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
+  },
+  {
+    id: "faq10",
+    q: "Where can I find the latest Mahadev Book updates?",
+    a: "Refer to Mahadev Book's current website information and terms for the most accurate answer."
+  }
 ];
 
 function FAQItem({ faq, isOpen, toggle }: {
