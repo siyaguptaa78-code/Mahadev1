@@ -10,6 +10,16 @@ export const metadata: Metadata = generatePageMetadata(
 
 const blogPosts = [
   {
+    slug: "/india-afghanistan-t20i-squad-2026/",
+    title: "India Announce Afghanistan T20I Squad as Sanju Samson Returns",
+    date: "September 4, 2026",
+    category: "Cricket",
+    excerpt: "India's cricket team is preparing for another important limited-overs assignment, with the three-match T20I series against Afghanistan scheduled to begin on September 13 in Delhi.",
+    gradient: "from-blue-500 to-cyan-600",
+    emoji: "🏏",
+    buttonText: "Read More",
+  },
+  {
     slug: "/icc-team-rankings/",
     title: "ICC Team Rankings: Test, ODI & T20I",
     date: "July 14, 2026",
