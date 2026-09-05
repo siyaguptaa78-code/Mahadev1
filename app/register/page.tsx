@@ -26,7 +26,7 @@ export default function RegisterPage() {
               Fastest way to register — Contact us on WhatsApp
             </p>
             <Link
-              href="https://wa.me/8796686330"
+              href="https://wa.me/918360750829"
               id="register-whatsapp-btn"
               target="_blank"
               rel="noopener noreferrer"

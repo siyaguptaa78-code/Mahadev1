@@ -94,7 +94,7 @@ export default function GetIDSection() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <a
-              href="https://wa.me/8796686330"
+              href="https://wa.me/918360750829"
               id="get-id-whatsapp-btn"
               target="_blank"
               rel="noopener noreferrer"
