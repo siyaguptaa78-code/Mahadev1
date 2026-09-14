@@ -115,7 +115,7 @@ export default function WhyChooseUs() {
           className="text-center"
         >
           <Link
-            href="https://wa.me/8796686330"
+            href="https://wa.me/918360750829"
             id="why-choose-cta-btn"
             target="_blank"
             rel="noopener noreferrer"
