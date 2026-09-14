@@ -61,7 +61,7 @@ export default function WhyChooseUs() {
             className="text-3xl md:text-4xl font-black text-white mb-4"
           >
             India&apos;s Most Trusted{" "}
-            <span className="text-yellow-400">Betting Portal</span>
+            <span className="text-yellow-400">Gaming Portal</span>
           </h2>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-4" />
         </motion.div>
@@ -74,11 +74,11 @@ export default function WhyChooseUs() {
           className="max-w-3xl mx-auto text-center mb-14 space-y-3"
         >
           <p className="text-gray-400 leading-relaxed">
-            Choosing the best platform to start your betting journey is essential.{" "}
-            <strong className="text-white">Mahadev Book</strong>is a reliable and trusted online betting portal that provides a safe and easy betting experience with fast withdrawals, advanced security features, multiple payment options, and a wide range of betting options.
+            Choosing the best platform to start your gaming journey is essential.{" "}
+            <strong className="text-white">Mahadev Book</strong>is a reliable and trusted online gaming portal that provides a safe and easy gaming experience with fast withdrawals, advanced security features, multiple payment options, and a wide range of gaming options.
           </p>
           <p className="text-gray-400 leading-relaxed">
-            Moreover, when using <strong className="text-white">Mahadev Book</strong>, your betting experience is guaranteed to be smooth as we offer 24/7 customer support to assist you throughout your betting journey.
+            Moreover, when using <strong className="text-white">Mahadev Book</strong>, your gaming experience is guaranteed to be smooth as we offer 24/7 customer support to assist you throughout your gaming journey.
           </p>
         </motion.div>
 

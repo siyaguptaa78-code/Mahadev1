@@ -17,7 +17,7 @@ export default function LoginPage() {
               Login to Mahadev Book
             </h1>
             <p className="text-gray-400 text-sm mt-1">
-              Access your betting account
+              Access your gaming account
             </p>
           </div>
 

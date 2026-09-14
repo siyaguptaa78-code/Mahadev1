@@ -26,7 +26,7 @@ const reviews = [
     id: 3,
     name: "Vikram M.",
     city: "Bangalore",
-    text: "IPL betting experience was incredible. Real-time updates and fast payouts.",
+    text: "IPL gaming experience was incredible. Real-time updates and fast payouts.",
     rating: 5,
     color: "from-green-500 to-green-700",
   },
@@ -34,7 +34,7 @@ const reviews = [
     id: 4,
     name: "Ankit T.",
     city: "Pune",
-    text: "100% genuine platform. I trust Mahadev Book for all my betting.",
+    text: "100% genuine platform. I trust Mahadev Book for all my gaming.",
     rating: 5,
     color: "from-orange-500 to-orange-700",
   },
@@ -96,7 +96,7 @@ export default function ReviewsSection() {
             </span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            See what our verified users say about Mahadev Bookand why they trust us with their betting needs.
+            See what our verified users say about Mahadev Bookand why they trust us with their gaming needs.
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>

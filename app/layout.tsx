@@ -38,7 +38,7 @@ const structuredData = {
       "@id": "https://themahadev.info/#webpage",
       url: "https://themahadev.info/",
       name: "Mahadev Book Online ID | Official Access Guide",
-      description: "Explore Mahadev Book information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
+      description: "Explore Mahadev Book information, online ID guidance, sports gaming and gaming resources, account help, and frequently asked questions.",
       isPartOf: {
         "@id": "https://themahadev.info/#website"
       }
@@ -77,7 +77,7 @@ const structuredData = {
           name: "What sports are available on Mahadev Book?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
+            text: "Available sports can change. Check the current sports or gaming section on the website for the latest list and availability."
           }
         },
         {

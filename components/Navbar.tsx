@@ -9,7 +9,7 @@ const navLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Blog", href: "/blog" },
-  { label: "Mahadev Betting App", href: "/mahadev-betting-app" },
+  { label: "Mahadev Gaming App", href: "/mahadev-gaming-app" },
   { label: "Mahadev Book ID", href: "/mahadev-book-id" },
   { label: "FAQ", href: "/faq" },
   { label: "Contact", href: "/contact" },

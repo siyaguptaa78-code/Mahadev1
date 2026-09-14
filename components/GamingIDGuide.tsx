@@ -9,27 +9,27 @@ const strategyCards = [
   {
     icon: Lock,
     title: "1. Secure Login",
-    desc: "Login to your betting ID through an encrypted network for your security",
+    desc: "Login to your gaming ID through an encrypted network for your security",
   },
   {
     icon: Compass,
-    title: "2. Explore Betting Markets",
-    desc: "Get access to 1000s of live sports events and in-play betting with one betting wallet",
+    title: "2. Explore Gaming Markets",
+    desc: "Get access to 1000s of live sports events and in-play gaming with one gaming wallet",
   },
   {
     icon: BarChart2,
     title: "3. Track & Manage Bets",
-    desc: "Track and monitor results and withdrawals from your betting dashboard",
+    desc: "Track and monitor results and withdrawals from your gaming dashboard",
   },
 ];
 
-const responsibleBetting = [
-  "Set deposit and withdrawal limits on your betting account to avoid temptation. Also, avoid chasing losses by taking regular breaks and only gambling with money you can afford to lose.",
+const responsibleGaming = [
+  "Set deposit and withdrawal limits on your gaming account to avoid temptation. Also, avoid chasing losses by taking regular breaks and only gambling with money you can afford to lose.",
   "Ensure your work and personal life balance and seek professional help if gambling impacts your daily life.",
   "Consult your relationship manager for any assistance.",
 ];
 
-export default function BettingIDGuide() {
+export default function GamingIDGuide() {
   const { ref, isInView } = useScrollAnimation();
 
   return (
@@ -51,10 +51,10 @@ export default function BettingIDGuide() {
             className="text-3xl md:text-4xl font-black text-gray-900 mb-4"
           >
             Get to Know Your{" "}
-            <span className="text-yellow-500">Betting ID</span>
+            <span className="text-yellow-500">Gaming ID</span>
           </h2>
           <p className="text-gray-600 max-w-xl mx-auto">
-            Your Mahadev Book ID grants you access to India’s most trusted online betting portal, Mahadev Book, where you can bet on sports, casino, and virtual games with complete security and ease of use. Think of your betting ID as your secure access key to all the betting fun on the portal. Here’s how it works:
+            Your Mahadev Book ID grants you access to India’s most trusted online gaming portal, Mahadev Book, where you can bet on sports, casino, and virtual games with complete security and ease of use. Think of your gaming ID as your secure access key to all the gaming fun on the portal. Here’s how it works:
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>
@@ -70,10 +70,10 @@ export default function BettingIDGuide() {
             What is a Mahadev Book ID?
           </h3>
           <p className="text-gray-300 leading-relaxed mb-4">
-            Your <strong className="text-white">Mahadev Book ID</strong>is your key to accessing India&apos;s best online betting platform with verified security features. Using this powerful tool, you can bet on sports, casino, and other games at a fast and reliable online betting site with an array of betting options.
+            Your <strong className="text-white">Mahadev Book ID</strong>is your key to accessing India&apos;s best online gaming platform with verified security features. Using this powerful tool, you can bet on sports, casino, and other games at a fast and reliable online gaming site with an array of gaming options.
           </p>
           <p className="text-gray-400 leading-relaxed">
-            It is your secure key to engaging and enjoying a wide range of sports betting and live casino games with fast withdrawals.
+            It is your secure key to engaging and enjoying a wide range of sports gaming and live casino games with fast withdrawals.
           </p>
         </motion.div>
 
@@ -111,7 +111,7 @@ export default function BettingIDGuide() {
           </div>
         </motion.div>
 
-        {/* Responsible Betting */}
+        {/* Responsible Gaming */}
         <motion.div
           variants={fadeInUp}
           initial="hidden"
@@ -119,13 +119,13 @@ export default function BettingIDGuide() {
           className="bg-yellow-50 border border-yellow-200 rounded-2xl p-8"
         >
           <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-            <span>⚖️</span> Responsible Betting
+            <span>⚖️</span> Responsible Gaming
           </h3>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            Your Mahadev Book betting id opens the exciting world of sports betting to you, but it has to be a responsible betting journey. Here are a few things to remember to enjoy betting without risking your finances and personal life:
+            Your Mahadev Book gaming id opens the exciting world of sports gaming to you, but it has to be a responsible gaming journey. Here are a few things to remember to enjoy gaming without risking your finances and personal life:
           </p>
           <ul className="space-y-3">
-            {responsibleBetting.map((item, i) => (
+            {responsibleGaming.map((item, i) => (
               <li key={i} className="flex items-start gap-3 text-gray-700">
                 <span className="w-5 h-5 mt-0.5 rounded-full bg-yellow-400 flex-shrink-0 flex items-center justify-center">
                   <svg className="w-3 h-3 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -137,7 +137,7 @@ export default function BettingIDGuide() {
             ))}
           </ul>
           <p className="text-gray-600 mt-6 leading-relaxed">
-            The platform allows you to take control of your betting and enhances your betting experience by giving you the best tools to remain responsible.
+            The platform allows you to take control of your gaming and enhances your gaming experience by giving you the best tools to remain responsible.
           </p>
         </motion.div>
       </div>

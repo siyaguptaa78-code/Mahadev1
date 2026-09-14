@@ -64,7 +64,7 @@ export default function ComplianceSection() {
               Our Compliance Framework
             </h3>
             <p className="text-gray-400 mb-6">
-              Mahadev Bookis an official sports betting platform that complies with international standards and regulations to guarantee fair-play and transparency. Some of the compliance features include
+              Mahadev Bookis an official sports gaming platform that complies with international standards and regulations to guarantee fair-play and transparency. Some of the compliance features include
             </p>
             <ul className="space-y-3">
               {complianceItems.map((item, i) => (
@@ -127,7 +127,7 @@ export default function ComplianceSection() {
             Commitment to Responsible Gambling
           </h3>
           <p className="text-gray-400 text-center mb-8 max-w-2xl mx-auto">
-            At Mahadev Book, we encourage responsible gambling and a positive betting experience among our users. To achieve this, we have put in place various responsible gambling tools to help you stay in control of your betting activities.
+            At Mahadev Book, we encourage responsible gambling and a positive gaming experience among our users. To achieve this, we have put in place various responsible gambling tools to help you stay in control of your gaming activities.
           </p>
 
           <motion.div

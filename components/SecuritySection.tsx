@@ -13,8 +13,8 @@ const securityPoints = [
   "Transparent and trustworthy operations with no hidden fees.",
   "Seamless multi-device experience with end-to-end encryption.",
   "Round-the-clock customer support for live assistance.",
-  "Your betting activities remain secure and private on Mahadev Book. Betting on sports and casino games is made easy and safe with real-time odds, enhanced encryption, and reliable withdrawal options.",
-  "Getting your verified Mahadev Book ID is the first step towards enjoying a seamless, secure, and reliable betting experience.",
+  "Your gaming activities remain secure and private on Mahadev Book. Gaming on sports and casino games is made easy and safe with real-time odds, enhanced encryption, and reliable withdrawal options.",
+  "Getting your verified Mahadev Book ID is the first step towards enjoying a seamless, secure, and reliable gaming experience.",
 ];
 
 export default function SecuritySection() {

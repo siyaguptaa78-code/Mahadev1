@@ -54,7 +54,7 @@ export default function TeamSection() {
             Meet Our <span className="text-yellow-500">Experts</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            A team of highly-skilled sports analysts, cybersecurity experts, and business operations managers who have years of experience in the sports and betting industry.
+            A team of highly-skilled sports analysts, cybersecurity experts, and business operations managers who have years of experience in the sports and gaming industry.
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>

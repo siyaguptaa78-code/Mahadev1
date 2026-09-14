@@ -3,8 +3,8 @@ import { generatePageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata(
-  "Blog – Mahadev Book Betting Insights & Tips",
-  "Read the latest cricket betting tips, platform guides, and sports insights on the Mahadev Book Blog.",
+  "Blog – Mahadev Book Gaming Insights & Tips",
+  "Read the latest cricket gaming tips, platform guides, and sports insights on the Mahadev Book Blog.",
   "/blog"
 );
 
@@ -33,8 +33,8 @@ const blogPosts = [
     slug: "benefits-of-having-a-verified-mahadev-book-id-2025",
     title: "Benefits of Having a Verified Mahadev Book ID in 2025",
     date: "October 26, 2025",
-    category: "Betting",
-    excerpt: "Discover why having a verified Mahadev Book ID is essential for secure and rewarding online betting in 2025.",
+    category: "Gaming",
+    excerpt: "Discover why having a verified Mahadev Book ID is essential for secure and rewarding online gaming in 2025.",
     gradient: "from-yellow-500 to-orange-500",
     emoji: "🆔",
   },
@@ -43,7 +43,7 @@ const blogPosts = [
     title: "Is Mahadev Book Legal in India? Everything You Need to Know",
     date: "October 21, 2025",
     category: "Legal",
-    excerpt: "A comprehensive guide to understanding the legal landscape of online betting in India.",
+    excerpt: "A comprehensive guide to understanding the legal landscape of online gaming in India.",
     gradient: "from-blue-500 to-indigo-600",
     emoji: "⚖️",
   },
@@ -61,7 +61,7 @@ const blogPosts = [
     title: "India vs Australia ODI Series 2025: Bet Smart",
     date: "October 16, 2025",
     category: "Cricket",
-    excerpt: "Expert betting insights for the India vs Australia ODI series 2025.",
+    excerpt: "Expert gaming insights for the India vs Australia ODI series 2025.",
     gradient: "from-red-500 to-pink-600",
     emoji: "🏏",
   },
@@ -76,7 +76,7 @@ export default function BlogPage() {
             Mahadev Book <span className="text-yellow-500">Blog</span>
           </h1>
           <p className="text-gray-600 max-w-xl mx-auto">
-            Latest betting insights, guides, and sports tips from our expert team
+            Latest gaming insights, guides, and sports tips from our expert team
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </div>

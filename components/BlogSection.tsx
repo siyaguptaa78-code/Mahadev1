@@ -23,7 +23,7 @@ const blogs = [
     title: "Benefits of Having a Verified Mahadev Book ID in 2025",
     date: "October 26, 2025",
     time: "5:30 PM",
-    category: "Betting",
+    category: "Gaming",
     categoryColor: "bg-yellow-400 text-black",
     gradient: "from-yellow-500 to-orange-500",
     emoji: "🆔",
@@ -33,17 +33,17 @@ const blogs = [
     title: "Is Mahadev Book Legal in India? Everything You Need to Know",
     date: "October 21, 2025",
     time: "6:00 PM",
-    category: "Betting",
+    category: "Gaming",
     categoryColor: "bg-yellow-400 text-black",
     gradient: "from-blue-500 to-indigo-600",
     emoji: "⚖️",
   },
   {
     slug: "mahadev-book-login-guide-2025",
-    title: "Mahadev Book Login Guide 2025 – Secure Access to Your Online Betting ID",
+    title: "Mahadev Book Login Guide 2025 – Secure Access to Your Online Gaming ID",
     date: "October 19, 2025",
     time: "6:00 PM",
-    category: "Betting",
+    category: "Gaming",
     categoryColor: "bg-yellow-400 text-black",
     gradient: "from-green-500 to-teal-600",
     emoji: "🔐",
@@ -83,7 +83,7 @@ export default function BlogSection() {
             Explore Our <span className="text-yellow-500">Recent Blogs</span>
           </h2>
           <p className="text-gray-600 max-w-xl mx-auto">
-            Stay updated with the latest news, insights and updates relating to betting services
+            Stay updated with the latest news, insights and updates relating to gaming services
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>

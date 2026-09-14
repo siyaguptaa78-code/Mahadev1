@@ -6,15 +6,15 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const features = [
   {
-    title: "Sports Betting:",
-    desc: "Bet on cricket, football, tennis, and more. Famous for IPL betting and live cricket betting.",
+    title: "Sports Gaming:",
+    desc: "Bet on cricket, football, tennis, and more. Famous for IPL gaming and live cricket gaming.",
   },
   {
     title: "Casino Games:",
     desc: "Play Teen Patti, Andar Bahar, and enjoy live casino experiences.",
   },
   {
-    title: "Real-Time Betting:",
+    title: "Real-Time Gaming:",
     desc: "Place bets while the match is live for added excitement.",
   },
   {
@@ -23,7 +23,7 @@ const features = [
   },
   {
     title: "Easy Registration:",
-    desc: "Get your Mahadev Book ID through a verified agent and start betting instantly.",
+    desc: "Get your Mahadev Book ID through a verified agent and start gaming instantly.",
   },
   {
     title: "Device Friendly:",
@@ -35,7 +35,7 @@ const features = [
   },
   {
     title: "Responsible Gambling:",
-    desc: "Encourages safe and controlled betting.",
+    desc: "Encourages safe and controlled gaming.",
   },
 ];
 
@@ -75,7 +75,7 @@ export default function WhatIsSection() {
             className="space-y-4"
           >
             <p className="text-gray-700 text-lg leading-relaxed">
-              <strong>Mahadev Book</strong> is one of the popular online betting portals in India that offer the best secure betting experience with multiple game options.
+              <strong>Mahadev Book</strong> is one of the popular online gaming portals in India that offer the best secure gaming experience with multiple game options.
             </p>
             <p className="text-gray-600 leading-relaxed">
               We are your one-stop shop for premier sportsbooks and all your cricket prediction and casino needs with a verified Mahadev book id for total security of your bets and withdrawals.
@@ -84,7 +84,7 @@ export default function WhatIsSection() {
             {/* Highlight box */}
             <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 border-l-4 border-yellow-400 rounded-r-xl p-6 mt-6">
               <p className="text-gray-800 font-semibold text-lg">
-                🏆 India&apos;s Most Trusted Betting Platform
+                🏆 India&apos;s Most Trusted Gaming Platform
               </p>
               <p className="text-gray-600 mt-2">
                 Trusted by 1.2M+ users since 2018 with over 60M successful

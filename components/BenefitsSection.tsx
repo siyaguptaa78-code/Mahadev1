@@ -8,17 +8,17 @@ import Link from "next/link";
 const benefits = [
   {
     title: "Trustworthy, Transparent, Tried",
-    desc: "Join the list of verified and trusted online bettors who enjoy 100% legitimate betting services. Unlike many other sites that mislead their users, Mahadev Bookis based on a transparent betting framework and trustworthy procedures.",
+    desc: "Join the list of verified and trusted online bettors who enjoy 100% legitimate gaming services. Unlike many other sites that mislead their users, Mahadev Bookis based on a transparent gaming framework and trustworthy procedures.",
     reverse: false,
   },
   {
     title: "Lightning-Fast Verification & Login",
-    desc: "Your betting journey begins the moment your account is verified. There are no holds or further steps required to gain full access to your betting dashboard. The verification is rapid and straightforward and is performed using an optimized system that has been tested and trusted by millions of users across India.",
+    desc: "Your gaming journey begins the moment your account is verified. There are no holds or further steps required to gain full access to your gaming dashboard. The verification is rapid and straightforward and is performed using an optimized system that has been tested and trusted by millions of users across India.",
     reverse: true,
   },
   {
     title: "Optimized for Cricket, Casino & More",
-    desc: "Your verified Mahadev Book ID grants you access to the best betting options in India. The multiple betting markets, ranging from IPL cricket to live casino games, are all available on an easy-to-access system that is optimized for speed and performance.",
+    desc: "Your verified Mahadev Book ID grants you access to the best gaming options in India. The multiple gaming markets, ranging from IPL cricket to live casino games, are all available on an easy-to-access system that is optimized for speed and performance.",
     reverse: false,
   },
   {
@@ -28,12 +28,12 @@ const benefits = [
   },
   {
     title: "Secure Transactions and Instant Withdrawals",
-    desc: "The online betting experience is made easy and reliable with enhanced security measures and instant withdrawal options. Your deposits and withdrawals are processed via secure and encrypted digital channels, guaranteeing fast, hassle-free transactions.",
+    desc: "The online gaming experience is made easy and reliable with enhanced security measures and instant withdrawal options. Your deposits and withdrawals are processed via secure and encrypted digital channels, guaranteeing fast, hassle-free transactions.",
     reverse: false,
   },
   {
-    title: "Play Anywhere with Mahadev Betting App",
-    desc: "The Mahadev Betting Appis the best way to enjoy betting on the go. Whether you are traveling or at work, you can bet on your favorite sports and casino games securely and conveniently with the Mahadev Betting App.",
+    title: "Play Anywhere with Mahadev Gaming App",
+    desc: "The Mahadev Gaming Appis the best way to enjoy gaming on the go. Whether you are traveling or at work, you can bet on your favorite sports and casino games securely and conveniently with the Mahadev Gaming App.",
     reverse: true,
     hasLink: true,
   },
@@ -62,7 +62,7 @@ export default function BenefitsSection() {
             >
               Top Benefits of Your{" "}
               <span className="text-yellow-500">Mahadev Book</span> Online
-              Betting ID
+              Gaming ID
             </h2>
             <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full" />
           </motion.div>
@@ -108,12 +108,12 @@ export default function BenefitsSection() {
                       <>
                         The{" "}
                         <Link
-                          href="/mahadev-betting-app"
+                          href="/mahadev-gaming-app"
                           className="text-yellow-600 font-semibold hover:underline"
                         >
-                          Mahadev Betting App
+                          Mahadev Gaming App
                         </Link>
-                        is the best way to enjoy betting on the go. Whether you are traveling or at work, you can bet on your favorite sports and casino games securely and conveniently with the Mahadev Betting App.
+                        is the best way to enjoy gaming on the go. Whether you are traveling or at work, you can bet on your favorite sports and casino games securely and conveniently with the Mahadev Gaming App.
                       </>
                     ) : (
                       benefit.desc

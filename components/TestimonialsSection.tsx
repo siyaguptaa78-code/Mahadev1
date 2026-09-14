@@ -25,7 +25,7 @@ const testimonials = [
   {
     name: "Vikram M.",
     city: "Bangalore",
-    review: "IPL betting experience was incredible. Real-time updates and fast payouts.",
+    review: "IPL gaming experience was incredible. Real-time updates and fast payouts.",
     rating: 5,
     color: "from-green-500 to-green-700",
     initials: "VM",
@@ -33,7 +33,7 @@ const testimonials = [
   {
     name: "Ankit T.",
     city: "Pune",
-    review: "100% genuine platform. I trust Mahadev Book for all my betting.",
+    review: "100% genuine platform. I trust Mahadev Book for all my gaming.",
     rating: 5,
     color: "from-orange-500 to-orange-700",
     initials: "AT",
@@ -99,7 +99,7 @@ export default function TestimonialsSection() {
             100% <span className="text-yellow-500">PAYOUTS</span>
           </h2>
           <p className="text-gray-600 max-w-xl mx-auto">
-            Our Players Say It All. These are some of the excellent feedback from our verified WhatsApp users who have enjoyed their betting journey with Mahadev Book.
+            Our Players Say It All. These are some of the excellent feedback from our verified WhatsApp users who have enjoyed their gaming journey with Mahadev Book.
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>

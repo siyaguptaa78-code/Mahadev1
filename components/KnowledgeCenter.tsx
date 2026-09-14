@@ -10,13 +10,13 @@ const knowledgeCards = [
   {
     icon: TrendingUp,
     title: "Live IPL & T20",
-    desc: "Live IPL, international matches, T20 leagues betting with attractive odds and live markets",
+    desc: "Live IPL, international matches, T20 leagues gaming with attractive odds and live markets",
     linkText: "Bet Live →",
   },
   {
     icon: ShieldCheck,
     title: "Football Leagues",
-    desc: "Premier league, Champions league, La Liga, Indian super league matches betting",
+    desc: "Premier league, Champions league, La Liga, Indian super league matches gaming",
     linkText: "Bet Live →",
   },
   {
@@ -28,13 +28,13 @@ const knowledgeCards = [
   {
     icon: TrendingUp,
     title: "Tennis Matches",
-    desc: "Grand slam, ATP, WTA live match betting",
+    desc: "Grand slam, ATP, WTA live match gaming",
     linkText: "Bet Live →",
   },
   {
     icon: ShieldCheck,
     title: "Virtual Sports",
-    desc: "Digital cricket, football, horse racing betting with enhanced graphics",
+    desc: "Digital cricket, football, horse racing gaming with enhanced graphics",
     linkText: "Bet Live →",
   },
 ];
@@ -115,10 +115,10 @@ export default function KnowledgeCenter() {
             Live Expert Webinars
           </h3>
           <p className="text-gray-400 mb-6 max-w-xl mx-auto">
-            Join our weekly pro-bettor webinars for expert betting advice and
+            Join our weekly pro-bettor webinars for expert gaming advice and
             tips. Next webinar:{" "}
             <span className="text-yellow-400 font-semibold">
-              &quot;IPL 2024 Betting Strategies&quot;
+              &quot;IPL 2024 Gaming Strategies&quot;
             </span>
           </p>
           <Link

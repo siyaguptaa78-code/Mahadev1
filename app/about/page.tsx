@@ -3,8 +3,8 @@ import { generatePageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 
 export const metadata: Metadata = generatePageMetadata(
-  "About Mahadev Book – India's Trusted Betting Platform",
-  "Learn about Mahadev Book, India's most trusted online betting platform with 1.2M+ users since 2018.",
+  "About Mahadev Book – India's Trusted Gaming Platform",
+  "Learn about Mahadev Book, India's most trusted online gaming platform with 1.2M+ users since 2018.",
   "/about"
 );
 
@@ -24,7 +24,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-black text-yellow-400 mb-4">Our Story</h2>
             <p>
               Mahadev Book was founded with a clear mission: to create India&apos;s most
-              secure, transparent, and rewarding online betting experience. Since 2018,
+              secure, transparent, and rewarding online gaming experience. Since 2018,
               we have grown to serve over 1.2 million verified users across India.
             </p>
           </div>

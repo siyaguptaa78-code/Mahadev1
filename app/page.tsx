@@ -2,7 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import WhatIsSection from "@/components/WhatIsSection";
 import ReviewsSection from "@/components/ReviewsSection";
 import EEATSection from "@/components/EEATSection";
-import BettingIDGuide from "@/components/BettingIDGuide";
+import GamingIDGuide from "@/components/GamingIDGuide";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import TeamSection from "@/components/TeamSection";
 import IndustryRecognition from "@/components/IndustryRecognition";
@@ -25,7 +25,7 @@ export default function HomePage() {
       <WhatIsSection />
       <ReviewsSection />
       <EEATSection />
-      <BettingIDGuide />
+      <GamingIDGuide />
       <WhyChooseUs />
       <TeamSection />
       <IndustryRecognition />

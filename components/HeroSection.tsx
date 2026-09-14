@@ -42,15 +42,15 @@ export default function HeroSection() {
             <span className="text-yellow-400">
               Most Trusted Online
             </span>{" "}
-            Betting ID
+            Gaming ID
           </h1>
 
           <p className="text-gray-300 text-lg leading-relaxed">
-            Welcome to India&apos;s no 1 online betting game-changer <strong className="text-white">Mahadev Book</strong>. With betting sites it has always been a numbers game and the numbers have always favored the timing of the market. With best odds and authorized betting portal Mahadev book is India&apos;s number one betting site for a safe betting experience.
+            Welcome to India&apos;s no 1 online gaming game-changer <strong className="text-white">Mahadev Book</strong>. With gaming sites it has always been a numbers game and the numbers have always favored the timing of the market. With best odds and authorized gaming portal Mahadev book is India&apos;s number one gaming site for a safe gaming experience.
           </p>
 
           <p className="text-gray-400 leading-relaxed">
-            We promise to make your betting experience exceptional with over <strong className="text-yellow-400">60000 monthly live scores</strong>, instant withdrawals and end to end encrypted transactions plus you also get to enjoy the best betting features and tools with every verified ID for a delightful time.
+            We promise to make your gaming experience exceptional with over <strong className="text-yellow-400">60000 monthly live scores</strong>, instant withdrawals and end to end encrypted transactions plus you also get to enjoy the best gaming features and tools with every verified ID for a delightful time.
           </p>
 
           {/* CTA Button */}
@@ -104,7 +104,7 @@ export default function HeroSection() {
                 </div>
                 <div className="text-center">
                   <h2 className="text-white font-black text-3xl">Mahadev Book</h2>
-                  <p className="text-yellow-400 font-semibold mt-1">Official Betting Platform</p>
+                  <p className="text-yellow-400 font-semibold mt-1">Official Gaming Platform</p>
                 </div>
                 <Link
                   href="https://wa.me/8796686330"

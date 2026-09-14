@@ -21,7 +21,7 @@ const eeatCards = [
   {
     icon: Crown,
     title: "Authority",
-    desc: "Recognized as India’s leading betting platform by industry authorities",
+    desc: "Recognized as India’s leading gaming platform by industry authorities",
     highlight: false,
   },
   {
@@ -63,7 +63,7 @@ export default function EEATSection() {
             The <span className="text-yellow-500">Official Mahadev Book</span> Website
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            The officially licensed website of Mahadev Bookthat you can use to access the best betting and gaming services. With years of betting expertise and over 15 years of experience, we are in the best position to offer you the best and most reliable online betting services in India trusted by 1.2M+ active users.
+            The officially licensed website of Mahadev Bookthat you can use to access the best gaming and gaming services. With years of gaming expertise and over 15 years of experience, we are in the best position to offer you the best and most reliable online gaming services in India trusted by 1.2M+ active users.
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>

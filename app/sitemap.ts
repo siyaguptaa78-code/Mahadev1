@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
     },
     {
-      url: "/mahadev-betting-app",
+      url: "/mahadev-gaming-app",
       priority: 0.9,
       changeFrequency: "monthly" as const,
     },

@@ -6,21 +6,21 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import Link from "next/link";
 
 const appFeatures = [
-  "Live betting on sports events and casino games",
-  "Get your verified betting ID instantly",
-  "Funds deposited directly to your betting wallet",
+  "Live gaming on sports events and casino games",
+  "Get your verified gaming ID instantly",
+  "Funds deposited directly to your gaming wallet",
   "Quick and easy deposits and withdrawals using digital wallets and UPI",
-  "Excellent features for seamless betting experience",
-  "Live scores and odds with an enhanced betting environment",
-  "100% safe and secure betting experience",
+  "Excellent features for seamless gaming experience",
+  "Live scores and odds with an enhanced gaming environment",
+  "100% safe and secure gaming experience",
 ];
 
 const downloadSteps = [
   "Find the download link on our website or contact us via WhatsApp",
-  'Click on the "Mahadev Betting App" button',
-  "Give permissions and install the betting app",
-  "Sign up or log in to your account using your betting ID",
-  "Start betting on live matches and casino games",
+  'Click on the "Mahadev Gaming App" button',
+  "Give permissions and install the gaming app",
+  "Sign up or log in to your account using your gaming ID",
+  "Start gaming on live matches and casino games",
 ];
 
 export default function AppDownloadSection() {
@@ -46,18 +46,18 @@ export default function AppDownloadSection() {
               className="text-3xl sm:text-4xl font-black text-yellow-400 leading-tight"
             >
               Download the Mahadev Book App – India&apos;s Most Trusted Online
-              Betting Platform
+              Gaming Platform
             </h2>
 
             <p className="text-gray-300 text-lg leading-relaxed">
-              Looking for the best betting app in India?{" "}
+              Looking for the best gaming app in India?{" "}
               <Link
-                href="/mahadev-betting-app"
+                href="/mahadev-gaming-app"
                 className="text-yellow-400 underline hover:text-yellow-300 transition-colors"
               >
                 Mahadev Book Official App
               </Link>
-              is the best choice for fast and easy betting on sports events and live casino games.
+              is the best choice for fast and easy gaming on sports events and live casino games.
             </p>
 
             <p className="text-gray-400 leading-relaxed">
@@ -96,7 +96,7 @@ export default function AppDownloadSection() {
             {/* Download Steps */}
             <div>
               <h3 className="text-yellow-400 font-bold text-xl mb-4">
-                How to Download Mahadev Betting App
+                How to Download Mahadev Gaming App
               </h3>
               <ol className="space-y-3">
                 {downloadSteps.map((step, i) => (
@@ -188,7 +188,7 @@ export default function AppDownloadSection() {
               </div>
             </div>
             <p className="text-gray-500 text-sm text-center">
-              Download now and enjoy the future of online sports betting
+              Download now and enjoy the future of online sports gaming
             </p>
           </motion.div>
         </div>

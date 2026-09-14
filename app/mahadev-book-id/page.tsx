@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { generatePageMetadata } from "@/lib/metadata";
-import BettingIDGuide from "@/components/BettingIDGuide";
+import GamingIDGuide from "@/components/GamingIDGuide";
 import GetIDSection from "@/components/GetIDSection";
 
 export const metadata: Metadata = generatePageMetadata(
-  "Mahadev Book ID – Get Your Verified Betting ID",
-  "Get your verified Mahadev Book ID instantly. Access cricket betting, casino games, and more with your secure ID.",
+  "Mahadev Book ID – Get Your Verified Gaming ID",
+  "Get your verified Mahadev Book ID instantly. Access cricket gaming, casino games, and more with your secure ID.",
   "/mahadev-book-id"
 );
 
@@ -18,12 +18,12 @@ export default function MahadevBookIDPage() {
             Mahadev Book <span className="text-yellow-400">ID</span>
           </h1>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            Your personal access key to India&apos;s trusted online betting
+            Your personal access key to India&apos;s trusted online gaming
             ecosystem. Get your verified ID today!
           </p>
         </div>
       </div>
-      <BettingIDGuide />
+      <GamingIDGuide />
       <GetIDSection />
     </div>
   );

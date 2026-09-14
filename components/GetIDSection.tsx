@@ -7,7 +7,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const benefits = [
   "Quick and easy registration using your Mahadev Book ID.",
-  "Fast log in and enjoy a wide range of betting options.",
+  "Fast log in and enjoy a wide range of gaming options.",
   "Simple guide on how to open an account on theMahadev Book.",
   "Secure deposits and withdrawals using the best and most trusted digital wallets.",
   "24/7 customer support to assist you with any queries or concerns.",
@@ -45,13 +45,13 @@ export default function GetIDSection() {
           </h2>
 
           <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mx-auto">
-            Mahadev Bookis one of the most trusted online betting platforms in
+            Mahadev Bookis one of the most trusted online gaming platforms in
             India. It has the necessary tools and features that enable you to
             bet on your favorite sports and games with ease and confidence.
-            Moreover, it provides you with a convenient and flexible betting
+            Moreover, it provides you with a convenient and flexible gaming
             experience, letting you choose between desktop, mobile, or even the
-            app. Therefore, it is the best betting platform trusted by thousands
-            of Indians who value a reliable, smooth, and transparent betting
+            app. Therefore, it is the best gaming platform trusted by thousands
+            of Indians who value a reliable, smooth, and transparent gaming
             experience.
           </p>
 
@@ -78,8 +78,8 @@ export default function GetIDSection() {
 
           <p className="text-gray-400 leading-relaxed mt-4">
             Thousands of sports bettors trust the official website for secure
-            and reliable betting services. You can also use theMahadev Book App
-            to access the betting site conveniently and safely from your mobile
+            and reliable gaming services. You can also use theMahadev Book App
+            to access the gaming site conveniently and safely from your mobile
             phone. So why not join them and get your verified ID today? It only
             takes a few minutes!
           </p>
@@ -89,7 +89,7 @@ export default function GetIDSection() {
             <strong className="text-yellow-400">
               Get your Mahadev Book ID now
             </strong>{" "}
-            and unlock a premium betting experience trusted across India.
+            and unlock a premium gaming experience trusted across India.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">

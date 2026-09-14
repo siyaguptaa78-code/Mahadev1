@@ -55,7 +55,7 @@ export default function IndustryRecognition() {
             Industry <span className="text-yellow-400">Recognition</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Mahadev Bookis recognized as a reliable online betting platform by industry experts.
+            Mahadev Bookis recognized as a reliable online gaming platform by industry experts.
           </p>
           <div className="w-16 h-1 bg-yellow-400 mx-auto rounded-full mt-6" />
         </motion.div>
