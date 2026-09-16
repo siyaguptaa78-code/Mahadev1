@@ -8,6 +8,16 @@ import Link from "next/link";
 
 const blogs = [
   {
+    slug: "/grand-prix-auvergne-rhone-alpes-2026/",
+    title: "Grand Prix Auvergne-Rhône-Alpes 2026: Complete ATP 250 Guide",
+    date: "September 16, 2026",
+    time: "",
+    category: "Tennis",
+    categoryColor: "bg-yellow-400 text-black",
+    gradient: "from-blue-600 to-indigo-700",
+    emoji: "🎾",
+  },
+  {
     slug: "/icc-team-rankings/",
     title: "ICC Team Rankings: Test, ODI & T20I",
     date: "July 14, 2026",

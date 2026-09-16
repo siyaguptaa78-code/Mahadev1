@@ -10,6 +10,16 @@ export const metadata: Metadata = generatePageMetadata(
 
 const blogPosts = [
   {
+    slug: "/grand-prix-auvergne-rhone-alpes-2026/",
+    title: "Grand Prix Auvergne-Rhône-Alpes 2026: Complete ATP 250 Guide",
+    date: "September 16, 2026",
+    category: "Tennis",
+    excerpt: "The Grand Prix Auvergne-Rhône-Alpes 2026 is a new ATP 250 tennis tournament in Lyon-Décines, France. Explore dates, venue, format, players, and key facts.",
+    gradient: "from-blue-600 to-indigo-700",
+    emoji: "🎾",
+    buttonText: "Read More",
+  },
+  {
     slug: "/india-afghanistan-t20i-squad-2026/",
     title: "India Announce Afghanistan T20I Squad as Sanju Samson Returns",
     date: "September 4, 2026",
